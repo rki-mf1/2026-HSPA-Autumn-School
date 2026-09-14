@@ -74,7 +74,7 @@ If the command prints a version number, the environment is ready.
 Move to the main workshop directory:
 
 ```bash
-cd ~/2026-bioinf-ToT-EPIC-Namibia
+cd ~/2026-HSPA-Autumn-School
 ```
 
 Create a working directory for this practical:
@@ -98,7 +98,7 @@ Create symbolic links to the downloaded FASTQ files. Symbolic links point to
 the original files and avoid creating additional copies.
 
 ```bash
-ln -s   ~/2026-bioinf-ToT-EPIC-Namibia/data/raw_data/kp_ont/*.fastq.gz   input/
+ln -s   ~/2026-HSPA-Autumn-School/data/raw_data/kp_ont/*.fastq.gz   input/
 ```
 
 Check the links:
@@ -334,8 +334,8 @@ conda activete multiqc
 Create an output directory and run MultiQC on all `fastplong` results:
 
 ```bash
-cd ~/2026-bioinf-ToT-EPIC-Namibia
-mkdir -p ~/2026-bioinf-ToT-EPIC-Namibia/analysis/multiqc
+cd ~/2026-HSPA-Autumn-School
+mkdir -p ~/2026-HSPA-Autumn-School/analysis/multiqc
 
 multiqc \
   analysis/fastplong/filtered_reads/ \

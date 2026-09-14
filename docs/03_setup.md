@@ -17,7 +17,7 @@ Throughout this workshop, we will rely on GitHub and Conda. Before we begin, let
 
 Git is used to download repositories and track changes to files.
 
-You should work from a cloned copy of [this](https://github.com/rki-mf1/2026-bioinf-ToT-EPIC-Namibia) in your home directory (`~`).
+You should work from a cloned copy of [this](https://github.com/rki-mf1/2026-HSPA-Autumn-School) in your home directory (`~`).
 
 To clone the repository, you need to have git installed. You can check whether Git is already available by opening a terminal and running:
 
@@ -44,8 +44,8 @@ git --version
 
 ```bash
 cd ~
-git clone https://github.com/rki-mf1/2026-bioinf-ToT-EPIC-Namibia.git
-cd ~/2026-bioinf-ToT-EPIC-Namibia
+git clone https://github.com/rki-mf1/2026-HSPA-Autumn-School.git
+cd ~/2026-HSPA-Autumn-School
 ```
 
 ---
