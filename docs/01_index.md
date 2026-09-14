@@ -9,6 +9,8 @@ permalink: /
 
 # HSPA Autumn School 2026: Mpox ONT Sequencing and Bioinformatics
 
+---
+
 The **Health Security Partnership in Africa (HSPA)** project is organizing a two-week training workshop on **Next-Generation Sequencing (NGS) and bioinformatics** under **Work Area 6**, which focuses on strengthening genomic surveillance capacity.
 
 The training will take place from **5 October to 16 October 2026** at the **Robert Koch Institute in Berlin, Germany**.
@@ -23,10 +25,10 @@ By the end of the workshop, participants will have acquired the practical and an
 
 ## Logistics
 
-- **Dates:** 5–16 October 2026
-- **Location:** Robert Koch Institute, Berlin, Germany
-- **Week 1:** 🧪 Wet-lab — mpox ONT sequencing
-- **Week 2:** 💻 Bioinformatics — processing, analysis, interpretation, and reporting of ONT sequencing data
+- 📅 **Dates:** 5–16 October 2026
+- 📍 **Location:** Robert Koch Institute, Berlin, Germany
+- 🧪 **Week 1:**  Wet-lab — mpox ONT sequencing
+- 💻 **Week 2:**  Bioinformatics — processing, analysis, interpretation, and reporting of ONT sequencing data
 
 A detailed day-by-day programme is available on the [Agenda](/agenda/) page.
 
@@ -47,39 +49,6 @@ Participants should ideally possess:
 
 ---
 
-## Workshop content
-
-### 🧪 Week 1 — Wet-lab
-
-During the wet-lab week, participants will gain hands-on experience in the key stages of mpox virus sequencing using the **Oxford Nanopore Technologies (ONT)** platform.
-
-The programme includes:
-
-- Mpox sequencing workflow and wet-lab setup
-- Library preparation
-- Sequencing run setup
-- Operation of the sequencing platform
-- Monitoring sequencing performance and output
-- Troubleshooting and initial review of sequencing data
-
-### 💻 Week 2 — Bioinformatics
-
-During the dry-lab week, participants will work with ONT sequencing data using **Linux-based command-line tools** and established analytical workflows.
-
-Practical exercises will cover:
-
-- Data organization and ONT sequencing file formats
-- Quality control and preprocessing of ONT sequencing reads
-- Mpox genome reconstruction
-- Consensus sequence generation
-- Genome quality assessment
-- Lineage or clade assignment
-- Comparative genomics
-- Phylogenetic analysis
-- Interpretation and reporting of genomic data for public health applications
-
----
-
 ## 🎯 Learning objectives
 
 Upon completion of the workshop, participants will be able to:
@@ -97,27 +66,14 @@ Upon completion of the workshop, participants will be able to:
 
 ---
 
-## Workshop overview
-
-| Week | Dates | Focus |
-| --- | --- | --- |
-| **🧪 Week 1 — Wet-Lab** | 05–09 October 2026 | Mpox sequencing workflow, ONT library preparation, sequencing run setup and monitoring, troubleshooting, and initial data review |
-| **💻 Week 2 — Bioinformatics** | 12–16 October 2026 | Linux and data organization, read QC and preprocessing, genome reconstruction, lineage assignment, comparative genomics, phylogenetics, interpretation, and reporting |
-
-
----
-
 ## Organizers at Robert Koch Institute
 
 **Centre for International Health Protection (ZIG)**  
 Public Health Laboratory Support (ZIG 4)  
-Nordufer 20  
-13353 Berlin, Germany
+Nordufer 20, 13353 Berlin, Germany
 
 **Genome Competence Centre (MF1)**  
-Seestr. 10  
-13353 Berlin, Germany
+Seestr. 10, 13353 Berlin, Germany
 
 **Center for Biological Threats and Special Pathogens 1 (ZBS1)**  
-Seestr. 10  
-13353 Berlin, Germany
+Seestr. 10, 13353 Berlin, Germany
