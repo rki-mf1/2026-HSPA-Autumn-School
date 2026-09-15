@@ -5,8 +5,7 @@
 !/.gitignore
 
 # Keep required directories
-!/data/prodigal_training_files
-!/data/tutorial_data
+!/data/
 !/docs/
 !/.github/
 
