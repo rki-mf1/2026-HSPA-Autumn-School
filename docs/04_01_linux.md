@@ -25,17 +25,18 @@ By the end of this lesson, you should be able to:
 
 ## Working assumption
 
-This lesson assumes you cloned the repository into your **home** directory (`~`).
+This lesson assumes you will be working in your **home** directory (`~`).
 All examples below use paths relative to that location.
 
 ---
 
 ## Before you start
 
-Open a terminal and move into the workshop repository:
+Open a terminal and create directory for the tutorial, and then move into it:
 
 ```bash
-cd ~/2026-HSPA-Autumn-School
+mkdir ~/hspa26
+cd ~/hspa26
 ```
 
 Create a safe practice area for this session:
@@ -178,7 +179,7 @@ Linux is **case-sensitive**:
 Start in the repository root:
 
 ```bash
-cd ~/2026-HSPA-Autumn-School
+cd ~/hspa26
 pwd
 ```
 
@@ -194,7 +195,7 @@ pwd
 cd ~
 pwd
 
-cd ~/2026-HSPA-Autumn-School/data
+cd ~/hspa26/data
 pwd
 
 cd -
@@ -214,14 +215,14 @@ pwd
 
 An **absolute path** starts from the filesystem root `/`.
 
-Example: `/home/username/2026-HSPA-Autumn-School/data`
+Example: `/home/username/hspa26/data`
 
 A **relative path** starts from where you are right now.
 
 Example workflow:
 
 ```bash
-cd ~/2026-HSPA-Autumn-School
+cd ~/hspa26
 ls data
 
 cd data
@@ -233,7 +234,7 @@ ls ..
 > Run these commands and explain why they work:
 
 ```bash
-cd ~/2026-HSPA-Autumn-School
+cd ~/hspa26
 ls data
 
 cd data
@@ -261,7 +262,7 @@ cd ./data
 Return to your scratch directory:
 
 ```bash
-cd ~/2026-HSPA-Autumn-School/scratch
+cd ~/hspa26/scratch
 pwd
 ```
 
@@ -457,7 +458,7 @@ One possible solution:
 
 ```bash
 # 1.
-cd ~/2026-HSPA-Autumn-School/scratch
+cd ~/hspa26/scratch
 mkdir project_demo
 cd project_demo
 
