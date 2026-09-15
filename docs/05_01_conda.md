@@ -29,9 +29,9 @@ Bioinformatics tools often depend on very specific software versions. Installing
 
 This is where **Conda environments** are useful.
 
-A Conda environment is like a separate software box. Each environment can contain a specific set of tools and versions. For example, one environment may contain `bcftools`, another may contain `fastp`, and another may contain tools for genome assembly.
+A Conda environment is like a separate software box. Each environment can contain a specific set of tools and versions. For example, one environment may contain `bcftools`, another may contain `nanoplot`, and another may contain tools for genome assembly.
 
-In this practical, we will create and use a Conda environment for `fastp`.
+In this practical, we will create and use a Conda environment for `nanoplot`.
 
 ---
 
@@ -54,18 +54,18 @@ base                  *  /home/user/miniforge3
 
 ---
 
-## 2. Create Conda environment with `fastp`
+## 2. Create Conda environment with `nanoplot`
 
 Now we can create the environment.
 
 ```bash
-conda create -n fastp -c bioconda fastp
+conda create -n nanoplot -c bioconda nanoplot
 ```
 
 Here, we use two important parameters:
 
-- `-n fastp` gives the new environment the name **fastp**
-- `-c bioconda` specifies channel from which to install fastp
+- `-n nanoplot` gives the new environment the name **nanoplot**
+- `-c bioconda` specifies channel from which to install nanoplot
 
 ---
 
@@ -76,37 +76,41 @@ Now list the available Conda environments again.
 ```bash
 conda env list
 ```
-You should now see an environment called **fastp**.
+You should now see an environment called **nanoplot**.
 
 🎉 Congratulations! You have created your first Conda environment in this workshop.
 
 ---
 
-## 4. Try running fastp before activating the environment
+## 4. Try running nanoplot before activating the environment
 
 The `conda activate` command lets you switch to a specific environment. 
 You can use any of the environments that were listed in the output of `conda env list` command. 
 Once you activate a environment you will be able to use the software that is installed in that environment.
 
 ```bash
-# try to use fastp
-fastp
+# try to use NanoPlot
+NanoPlot
 ```
 
-Before activating the environment, let’s try running fastp.
+Before activating the environment, let’s try running NanoPlot.
 
 ```bash
-fastp
+NanoPlot
 ```
 
 You may see an error message similar to this:
 
 ```bash
-Command 'fastp' not found
+Command 'NanoPlot' not found
 ```
+
 This is expected.
 
-The software was installed inside the fastp Conda environment, but that environment is not active yet.
+The software was installed inside the nanoplot Conda environment, but that environment is not active yet.
+
+{: .note }
+Command for NanoPlot is with capilar letter N and P (`NanoPlot` not `nanoplot`)!
 
 ---
 
@@ -115,31 +119,31 @@ The software was installed inside the fastp Conda environment, but that environm
 To use software installed inside a Conda environment, we first need to activate it.
 
 ```bash
-conda activate fastp
+conda activate nanoplot
 ```
 
 Your terminal prompt may change and show the active environment name:
 
 ```bash
-(fastp) user@computer:~$
+(nanoplot) user@computer:~$
 ```
 
-Now try running fastp again.
+Now try running NanoPlot again.
 
 ```bash
-fastp
+NanoPlot
 ```
 
-This time, you should see the fastp help message instead of an error.
+This time, you should see the nanoplot help message instead of an error.
 
 ---
 
-## 6. Check which version of fastp is installed
+## 6. Check which version of nanoplot is installed
 
 It is good practice to check software versions, especially when working on reproducible analyses.
 
 ```bash
-fastp --version
+NanoPlot --version
 ```
 
 ---
@@ -166,9 +170,9 @@ conda deactivate
 > Try to answer the following questions:
 >
 > - Which command lists all available Conda environments?
-> - Which command activates the `fastp` environment?
-> - Why did `fastp` not work before activating the environment?
-> - Which command shows the installed version of `fastp`?
+> - Which command activates the `nanoplot` environment?
+> - Why did `nanoplot` not work before activating the environment?
+> - Which command shows the installed version of `nanoplot`?
 
 ---
 
@@ -179,7 +183,7 @@ In this practical, you used the following Conda commands:
 | Command | Purpose |
 |---|---|
 | `conda env list` | List available Conda environments |
-| `conda create -n fastp -c bioconda fastp` | Create a new environment |
-| `conda activate fastp` | Activate the `fastp` environment |
+| `conda create -n nanoplot -c bioconda nanoplot` | Create a new environment |
+| `conda activate nanoplot` | Activate the `nanoplot` environment |
 | `conda list` | List installed packages in the active environment |
 | `conda deactivate` | Leave the active environment |

@@ -9,7 +9,43 @@ permalink: /setup/
 
 # Recommended setup
 
-## Install Miniforge
+Throughout this workshop, we will rely on Git and Conda. 
+
+## Git
+
+Git is used to download repositories and track changes to files.
+
+You should work from a cloned copy of [this GitHub repository](https://github.com/rki-mf1/2026-HSPA-Autumn-School) in your home directory (`~`).
+
+To clone the repository, you need to have git installed. 
+
+You can check whether Git is already available by opening a terminal and running:
+
+```
+git --version
+```
+
+If you don't have it you need to install it.
+
+If you have it, you can continue by cloning the workshop GitHub repository in your home directory:
+
+```
+cd ~
+git clone https://github.com/rki-mf1/2026-HSPA-Autumn-School.git
+cd ~/2026-HSPA-Autumn-School
+```
+
+
+## Miniforge
+
+Check if you already have conda or mamba:
+
+```bash
+conda --version
+mamba --version
+```
+
+If you do not have it installed, you can install miniforge.
 
 [Miniforge](https://github.com/conda-forge/miniforge) provides `conda` and `mamba` through the community-maintained `conda-forge` channel. It is a fully open-source distribution and avoids reliance on Anaconda's default package repositories, whose use may be subject to commercial licensing terms.
 
@@ -23,10 +59,3 @@ bash Miniforge3.sh
 ```
 
 Follow the prompts, allow Conda to be initialised, and reopen the terminal.
-
-Check the installation:
-
-```bash
-conda --version
-mamba --version
-```

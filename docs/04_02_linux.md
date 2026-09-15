@@ -26,7 +26,7 @@ By the end of this lesson, you should be able to:
 Open a terminal and move into the workshop repository:
 
 ```bash
-cd ~/hspa26
+cd ~/2026-HSPA-Autumn-School
 ```
 
 Create a safe practice area for this session:
@@ -117,7 +117,7 @@ zless ERR16718636.fna.gz
 Let's copy `amrfinderplus.tsv` in our current working directory to explore it:
 
 ```bash
-cd ~/hspa26
+cd ~/2026-HSPA-Autumn-School
 cp data/tutorial_data/amrfinderplus.tsv scratch/
 cd scratch
 ```
@@ -237,7 +237,7 @@ wc -w amrfinderplus.tsv
 Create a directory for scripts:
 
 ```bash
-cd ~/hspa26/scratch
+cd ~/2026-HSPA-Autumn-School/scratch
 mkdir -p scripts
 cd scripts
 ```
@@ -288,13 +288,13 @@ ls -lh
 Run it explicitly with Bash:
 
 ```bash
-bash create_project.sh ~/hspa26/scratch/scripts demo_project
+bash create_project.sh ~/2026-HSPA-Autumn-School/scratch/scripts demo_project
 ```
 
 Run it directly:
 
 ```bash
-./create_project.sh ~/hspa26/scratch/scripts demo_project_2
+./create_project.sh ~/2026-HSPA-Autumn-School/scratch/scripts demo_project_2
 
 # or
 

@@ -9,6 +9,10 @@
 !/docs/
 !/.github/
 
+# Exclude testrun
+/data/yale_testrun
+/scratch
+
 # Keep required root files
 !/LICENSE
 !/README.md

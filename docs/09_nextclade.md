@@ -47,7 +47,7 @@ $PROJECT_DIR/2_analysis/01_artic-mpxv-nf/yale_testrun1_cladeii
 Define the project directory:
 
 ```bash
-PROJECT_DIR="$HOME/scratch/hspa26"
+PROJECT_DIR="$HOME/scratch/2026-HSPA-Autumn-School"
 ```
 
 Define directories for the ARTIC results and the Nextclade analysis:

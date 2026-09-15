@@ -32,11 +32,10 @@ All examples below use paths relative to that location.
 
 ## Before you start
 
-Open a terminal and create directory for the tutorial, and then move into it:
+Open a terminal and and then move into the workshop directory:
 
 ```bash
-mkdir ~/hspa26
-cd ~/hspa26
+cd ~/2026-HSPA-Autumn-School
 ```
 
 Create a safe practice area for this session:
@@ -179,7 +178,7 @@ Linux is **case-sensitive**:
 Start in the repository root:
 
 ```bash
-cd ~/hspa26
+cd ~/2026-HSPA-Autumn-School
 pwd
 ```
 
@@ -195,7 +194,7 @@ pwd
 cd ~
 pwd
 
-cd ~/hspa26/data
+cd ~/2026-HSPA-Autumn-School/data
 pwd
 
 cd -
@@ -215,14 +214,14 @@ pwd
 
 An **absolute path** starts from the filesystem root `/`.
 
-Example: `/home/username/hspa26/data`
+Example: `/home/username/2026-HSPA-Autumn-School/data`
 
 A **relative path** starts from where you are right now.
 
 Example workflow:
 
 ```bash
-cd ~/hspa26
+cd ~/2026-HSPA-Autumn-School
 ls data
 
 cd data
@@ -234,7 +233,7 @@ ls ..
 > Run these commands and explain why they work:
 
 ```bash
-cd ~/hspa26
+cd ~/2026-HSPA-Autumn-School
 ls data
 
 cd data
@@ -262,7 +261,7 @@ cd ./data
 Return to your scratch directory:
 
 ```bash
-cd ~/hspa26/scratch
+cd ~/2026-HSPA-Autumn-School/scratch
 pwd
 ```
 
@@ -458,7 +457,7 @@ One possible solution:
 
 ```bash
 # 1.
-cd ~/hspa26/scratch
+cd ~/2026-HSPA-Autumn-School/scratch
 mkdir project_demo
 cd project_demo
 

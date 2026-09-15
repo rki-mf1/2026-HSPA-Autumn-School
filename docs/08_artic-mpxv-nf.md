@@ -36,7 +36,7 @@ The input for this tutorial is the `fastq_pass` directory generated during basec
 
 The example analysis uses:
 
-- dataset: `yale_testrun1`
+- dataset: `yale_testrun`
 - primer scheme: `yale-mpox/2000/v1.0.0-cladeii`
 - MPXV clade: `cladeii`
 - ONT model: `r1041_e82_400bps_hac_v520`
@@ -48,20 +48,17 @@ The example analysis uses:
 First, define the location of the workshop project:
 
 ```bash
-PROJECT_DIR="$HOME/scratch/hspa26"
+PROJECT_DIR="$HOME/scratch/2026-HSPA-Autumn-School"
 ```
 
 Using a variable makes the command easier to read and avoids repeatedly typing the full project path.
 
-> **Note**
->
-> Do not write the home-directory shortcut `~` inside quotes, for example:
->
-> ```bash
-> PROJECT_DIR="~/scratch/hspa26/"
-> ```
->
-> In Bash, `~` is not expanded to your home directory when it is inside quotes. Using `$HOME` avoids this problem.
+{: .note }
+Do not write the home-directory shortcut `~` inside quotes, for example:
+```bash
+PROJECT_DIR="~/scratch/2026-HSPA-Autumn-School/"
+```
+In Bash, `~` is not expanded to your home directory when it is inside quotes. Using `$HOME` avoids this problem.
 
 Check the variable with:
 
