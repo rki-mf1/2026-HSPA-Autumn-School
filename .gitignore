@@ -5,12 +5,14 @@
 !/.gitignore
 
 # Keep required directories
-!/data/
+!/data/tutorial_data/
 !/docs/
 !/.github/
 
 # Exclude testrun
 /data/yale_testrun
+/data/testrun_mpox_amplicon_minion_yale-mpox-2000.tar.gz
+/data/testrun_mpox_amplicon_minion_yale-mpox-2000
 /scratch
 
 # Keep required root files

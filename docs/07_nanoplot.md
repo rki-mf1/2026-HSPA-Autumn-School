@@ -31,7 +31,7 @@ In this practical, we will inspect the mpox amplicon reads from **barcode08** be
 The input data are located in:
 
 ```text
-~/2026-HSPA-Autumn-School/data/yale_testrun/fastq_fail/barcode08/
+~/2026-HSPA-Autumn-School/data/testrun_mpox_amplicon_minion_yale-mpox-2000/fastq_fail/barcode08/
 ```
 
 ---
@@ -76,7 +76,7 @@ Run `NanoPlot` directly on the FASTQ files from **barcode08**:
 
 ```bash
 NanoPlot \
-    --fastq data/yale_testrun/fastq_fail/barcode08/*.fastq.gz \
+    --fastq data/testrun_mpox_amplicon_minion_yale-mpox-2000/fastq_fail/barcode08.excluding_human.fastq.gz \
     --outdir analysis/nanoplot/barcode08 \
     --threads 4
 ```
@@ -138,14 +138,20 @@ Use the NanoPlot report to answer:
 
 ---
 
-## 5. Continue with `artic-mpxv-nf`
+## 5. Run `NanoPlot` on your own sequencing data 
+
+Adapt the commands above and run `NanoPlot` on the FASTQ files you generated during the previous week of the HSPA Autumn School.
+
+---
+
+## 6. Continue with `artic-mpxv-nf`
 
 For this workflow, we will **not create a filtered FASTQ file**.
 
 The original reads from:
 
 ```text
-/dataset/yale_testrun/fastq_fail/barcode08/
+/dataset/testrun_mpox_amplicon_minion_yale-mpox-2000/fastq_fail/
 ```
 
 will be used directly as input for `artic-mpxv-nf`.

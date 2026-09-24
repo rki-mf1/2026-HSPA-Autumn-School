@@ -36,7 +36,7 @@ The input for this tutorial is the `fastq_pass` directory generated during basec
 
 The example analysis uses:
 
-- dataset: `yale_testrun`
+- dataset: `testrun_mpox_amplicon_minion_yale-mpox-2000`
 - primer scheme: `yale-mpox/2000/v1.0.0-cladeii`
 - MPXV clade: `cladeii`
 - ONT model: `r1041_e82_400bps_hac_v520`
@@ -75,10 +75,10 @@ nextflow run artic-network/artic-mpxv-nf \
     -r 2.1.0 \
     -profile rki_mamba,rki_slurm \
     -c "$PROJECT_DIR/1_scripts/rki_profile_with_fixes.config" \
-    --fastq "$PROJECT_DIR/0_data/yale_testrun1/fastq_pass" \
+    --fastq "$PROJECT_DIR/data/testrun_mpox_amplicon_minion_yale-mpox-2000/fastq_pass" \
     --scheme_version "yale-mpox/2000/v1.0.0-cladeii" \
-    --out_dir "$PROJECT_DIR/2_analysis/01_artic-mpxv-nf/yale_testrun1_cladeii" \
-    --store_dir "$PROJECT_DIR/2_analysis/01_artic-mpxv-nf/store_dir_yale_testrun1_cladeii" \
+    --out_dir "$PROJECT_DIR/analysis/02_artic-mpxv-nf/testrun_mpox_amplicon_minion_yale-mpox-2000_cladeii" \
+    --store_dir "$PROJECT_DIR/analysis/02_artic-mpxv-nf/store_dir_cladeii_testrun_mpox_amplicon_minion_yale-mpox-2000" \
     --override_model r1041_e82_400bps_hac_v520 \
     --validate_params false \
     --clade cladeii
@@ -125,7 +125,7 @@ In this workshop, `rki_profile_with_fixes.config` contains RKI-specific settings
 ### `--fastq`
 
 ```bash
---fastq "$PROJECT_DIR/0_data/yale_testrun1/fastq_pass"
+--fastq "$PROJECT_DIR/data/testrun_mpox_amplicon_minion_yale-mpox-2000/fastq_pass"
 ```
 
 Specifies the input ONT FASTQ reads.
@@ -155,7 +155,7 @@ The workflow documentation states that the Yale Clade I and Clade II scheme vari
 ### `--out_dir`
 
 ```bash
---out_dir "$PROJECT_DIR/2_analysis/01_artic-mpxv-nf/yale_testrun1_cladeii"
+--out_dir "$PROJECT_DIR/2_analysis/01_artic-mpxv-nf/testrun_mpox_amplicon_minion_yale-mpox-2000_cladeii"
 ```
 
 Defines where the final workflow results are written.
@@ -163,7 +163,7 @@ Defines where the final workflow results are written.
 ### `--store_dir`
 
 ```bash
---store_dir "$PROJECT_DIR/2_analysis/01_artic-mpxv-nf/store_dir_yale_testrun1_cladeii"
+--store_dir "$PROJECT_DIR/2_analysis/01_artic-mpxv-nf/store_dir_testrun_mpox_amplicon_minion_yale-mpox-2000_cladeii"
 ```
 
 Defines a persistent directory for reusable workflow resources, such as downloaded primer schemes or model files.
@@ -227,10 +227,10 @@ This is consistent with:
 | `-r` | `2.1.0` | Use workflow version 2.1.0 |
 | `-profile` | `rki_mamba,rki_slurm` | Use RKI Mamba and SLURM profiles |
 | `-c` | `rki_profile_with_fixes.config` | Load additional RKI Nextflow configuration |
-| `--fastq` | `yale_testrun1/fastq_pass` | Specify input ONT FASTQ reads |
+| `--fastq` | `testrun_mpox_amplicon_minion_yale-mpox-2000/fastq_pass` | Specify input ONT FASTQ reads |
 | `--scheme_version` | `yale-mpox/2000/v1.0.0-cladeii` | Select the Yale MPXV 2-kb Clade II scheme/reference |
-| `--out_dir` | `yale_testrun1_cladeii` | Define the final results directory |
-| `--store_dir` | `store_dir_yale_testrun1_cladeii` | Store reusable workflow resources |
+| `--out_dir` | `testrun_mpox_amplicon_minion_yale-mpox-2000_cladeii` | Define the final results directory |
+| `--store_dir` | `store_dir_testrun_mpox_amplicon_minion_yale-mpox-2000_cladeii` | Store reusable workflow resources |
 | `--override_model` | `r1041_e82_400bps_hac_v520` | Specify the ONT model |
 | `--validate_params` | `false` | Disable schema validation |
 | `--clade` | `cladeii` | Use the MPXV Clade II context |
@@ -258,13 +258,13 @@ Because the `rki_slurm` profile is active, computational tasks are submitted to 
 After the workflow completes:
 
 ```bash
-ls -lh "$PROJECT_DIR/2_analysis/01_artic-mpxv-nf/yale_testrun1_cladeii"
+ls -lh "$PROJECT_DIR/2_analysis/01_artic-mpxv-nf/testrun_mpox_amplicon_minion_yale-mpox-2000_cladeii"
 ```
 
 To inspect files recursively:
 
 ```bash
-find "$PROJECT_DIR/2_analysis/01_artic-mpxv-nf/yale_testrun1_cladeii" -maxdepth 2 -type f
+find "$PROJECT_DIR/2_analysis/01_artic-mpxv-nf/testrun_mpox_amplicon_minion_yale-mpox-2000_cladeii" -maxdepth 2 -type f
 ```
 
 Important output files can include:
@@ -286,7 +286,7 @@ The exact files present depend on the samples and workflow configuration.
 Find consensus FASTA files:
 
 ```bash
-find "$PROJECT_DIR/2_analysis/01_artic-mpxv-nf/yale_testrun1_cladeii" \
+find "$PROJECT_DIR/2_analysis/01_artic-mpxv-nf/testrun_mpox_amplicon_minion_yale-mpox-2000_cladeii" \
     -name "*.consensus.fasta"
 ```
 
@@ -299,7 +299,7 @@ A consensus FASTA contains the reconstructed MPXV genome for a sample.
 Find amplicon-depth files:
 
 ```bash
-find "$PROJECT_DIR/2_analysis/01_artic-mpxv-nf/yale_testrun1_cladeii" \
+find "$PROJECT_DIR/2_analysis/01_artic-mpxv-nf/testrun_mpox_amplicon_minion_yale-mpox-2000_cladeii" \
     -name "*.amplicon_depths.tsv"
 ```
 
