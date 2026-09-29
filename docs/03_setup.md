@@ -57,9 +57,12 @@ sudo apt install -y codium
 ```
 
 Open VSCodium, open the directory `2026-HSPA-Autumn-School` in VSCodium (Open Folder...) and continue the set up there.
+
 To open a terminal in VSCodium, select Terminal -> New Terminal in the top bar.
 
 ## Data
+From now on, we work in the **VSCodium terminal**.
+
 Create target directory:
 ```bash
 mkdir ~/Documents/data
