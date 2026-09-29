@@ -149,6 +149,8 @@ git --version
 ```
 
 ## Miniforge
+[Miniforge](https://github.com/conda-forge/miniforge) provides `conda` and `mamba` through the community-maintained `conda-forge` channel. It is a fully open-source distribution and avoids reliance on Anaconda's default package repositories, whose use may be subject to commercial licensing terms.
+
 Check if you already have conda or mamba:
 ```bash
 conda --version
@@ -156,8 +158,6 @@ mamba --version
 ```
 
 If you do not have it installed, you can install miniforge.
-
-[Miniforge](https://github.com/conda-forge/miniforge) provides `conda` and `mamba` through the community-maintained `conda-forge` channel. It is a fully open-source distribution and avoids reliance on Anaconda's default package repositories, whose use may be subject to commercial licensing terms.
 
 Download the installer:
 ```bash
