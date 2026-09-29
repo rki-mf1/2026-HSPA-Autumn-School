@@ -23,33 +23,28 @@ By the end of this lesson, you should be able to:
 
 ---
 
-## Working assumption
-
-This lesson assumes you will be working in your **home** directory (`~`).
-All examples below use paths relative to that location.
+## Working assumptions
+* This lesson assumes you will be working in your **home** directory (`~`). All examples below use paths relative to that location.
 
 ---
 
 ## Before you start
+Open the `2026-HSPA-Autumn-School` directory in VSCodium. Open a terminal. 
 
-Open a terminal and and then move into the workshop directory:
-
+You should be already in `~/2026-HSPA-Autumn-School`. If not, run:
 ```bash
 cd ~/2026-HSPA-Autumn-School
 ```
 
 Create a safe practice area for this session:
-
 ```bash
-mkdir -p scratch
+mkdir scratch
 ```
 
-Check where you are:
-
+Create a space for your sequencing data:
 ```bash
-pwd
+mkdir data
 ```
-
 ---
 
 ## The shell prompt
@@ -61,7 +56,7 @@ When you open a terminal, the shell displays a **prompt**. The prompt indicates 
 A typical prompt may look like this:
 
 ```bash
-user@workstation:~/direcotory$ █
+user@workstation:~/directory$ █
 ```
 
 The prompt commonly contains:
@@ -69,7 +64,7 @@ The prompt commonly contains:
 - `@`               → Separates the username and computer name
 - `workstation`     → Name of the computer or server
 - `:`               → Separates the computer name and current directory
-- `~/direcotory`    → Current working directory
+- `~/directory`    → Current working directory
 - `$`               → Indicates that the shell is ready for a command
 
 The exact appearance of the prompt may differ between computers. For those who are curious, you can [customize your bash prompt](https://www.howtogeek.com/307701/how-to-customize-and-colorize-your-bash-prompt/) by changing the color and information contained in it.
@@ -78,15 +73,12 @@ The exact appearance of the prompt may differ between computers. For those who a
 ---
 
 ## Structure of a shell command
-
 Most shell commands follow this general structure:
-
 ```bash
 command [options] [arguments]
 ```
 
 For example:
-
 ```
 ls -l ~
 ```
@@ -110,19 +102,20 @@ In this example, `ls` lists files, `-l` requests a detailed listing, and `~` spe
 ---
 
 ## 1. Your first commands
+Make sure you are in the right directory:
+```bash
+cd ~/2026-HSPA-Autumn-School
+```
 
 List the contents of the current directory:
-
 ```bash
 ls
 ```
 
 Try a few common variants:
-
 ```bash
-ls .
 ls ..
-ls -l
+ls -l 
 ls -lh
 ls -lt
 ```
@@ -130,12 +123,12 @@ ls -lt
 {: .discussion}
 > - What is the difference between `ls`, `ls -l`, and `ls -lh`?
 > - What does `ls ..` show?
-> - Which option sorts by modification time, newest first?
+> - What are command, option(s) and argument in each variant?
+> - > - Which option sorts by modification time, newest first?
 
 ---
 
 ## 2. Getting help
-
 Most commands provide built-in documentation.
 
 ```bash
@@ -143,7 +136,6 @@ man ls
 ```
 
 Or use the short help page:
-
 ```bash
 ls --help
 cp --help
@@ -159,66 +151,83 @@ mkdir --help
 ---
 
 ## 3. Useful terminal habits
-
 Try these **shortcuts**:
-
 - Press the `↑` **Up Arrow** to reuse previous commands.
 - Type `cle` and press **Tab** to autocomplete `clear`.
 - Start typing `cd ~/2026` and press **Tab** to autocomplete the path.
 
 Linux is **case-sensitive**:
-
 - `clear` works
 - `CLEAR` does not
 
 ---
 
 ## 4. Moving around the filesystem
-
-Start in the repository root:
-
+Start in the project directory:
 ```bash
 cd ~/2026-HSPA-Autumn-School
-pwd
 ```
 
 Now try the following:
-
 ```bash
 cd data
-pwd
+```
 
+Print current working directory:
+```bash
+pwd
+```
+
+```bash
 cd ..
-pwd
+```
 
+Print current working directory:
+```bash
+pwd
+```
+
+```bash
 cd ~
-pwd
+```bash
 
+Print current working directory:
+```bash
+pwd
+```
+
+```bash
 cd ~/2026-HSPA-Autumn-School/data
-pwd
+```
 
+Print current working directory:
+```bash
+pwd
+```
+
+``` bash
 cd -
+```
+
+Print current working directory:
+```bash
 pwd
 ```
 
 ### 🗝️ Key ideas
-
-- `~` = your home directory
+- `~` = your home directory, short for /home/$USER
 - `.` = the current directory
 - `..` = the parent directory
-- `cd -` = the directory you were in previously
+- `cd -` =  move to the directory you were in previously
 
 ---
 
 ## 5. Absolute and relative paths
-
 An **absolute path** starts from the filesystem root `/`.
-
-Example: `/home/username/2026-HSPA-Autumn-School/data`
+Example: `/home/$USER/2026-HSPA-Autumn-School/data`
 
 A **relative path** starts from where you are right now.
-
-Example workflow:
+Example: `2026-HSPA-Autumn-School/data`
 
 ```bash
 cd ~/2026-HSPA-Autumn-School
@@ -246,7 +255,6 @@ cd ./data
 ---
 
 ## 6. Create files and directories
-
 {: .tip}
 > **Naming files and directories in the Linux command line**
 > 
@@ -259,14 +267,11 @@ cd ./data
 > - Linux is case-sensitive, so `my_first_file.txt`, `My_First_File.txt`, and `my_FIRST_file.txt` are three different files.
 
 Return to your scratch directory:
-
 ```bash
 cd ~/2026-HSPA-Autumn-School/scratch
-pwd
 ```
 
 Create a few files and directories:
-
 ```bash
 touch notes.txt
 touch copy_me.txt
@@ -276,14 +281,16 @@ ls -lh
 ```
 
 Add text to a file:
-
 ```bash
 echo "Hello Bioinformatics" > notes.txt
+```
+
+View file content:
+```bash
 cat notes.txt
 ```
 
-**Append** another line:
-
+**Append** another line and view file content:
 ```bash
 echo "Linux is powerful." >> notes.txt
 cat notes.txt
@@ -296,12 +303,10 @@ cat notes.txt
 Create a new file and open it in `nano`:
 
 ```bash
-touch my_text_file.txt
 nano my_text_file.txt
 ```
 
 Inside `nano`, try the following:
-
 - write two or three lines (e.g. tell us how much you like whales 🐋)
 - save with `Ctrl + O`
 - exit with `Ctrl + X`
@@ -313,7 +318,6 @@ cat my_text_file.txt
 ```
 
 ### Useful nano shortcuts
-
 In the command overview at the bottom of the screen when in `nano`, `^` indicates **Ctrl** and `M-` indicates **Alt**. For example, `^O` means `Ctrl + O`.
 
 Useful nano shortcuts:
@@ -327,25 +331,33 @@ Useful nano shortcuts:
 ---
 
 ## 7. Copy files and directories
-
-Copy a file into another file:
-
+Copy a file:
 ```bash
 cp copy_me.txt copy_me_backup.txt
+```
+
+Verify:
+```
 ls
 ```
 
 Copy a file into a directory:
-
 ```bash
 cp notes.txt drafts/
+```
+
+Verify:
+```
 ls drafts
 ```
 
 Copy a directory **recursively**:
-
 ```bash
 cp -r drafts drafts_copy
+```
+
+Verify:
+```
 ls
 ```
 
@@ -356,43 +368,55 @@ ls
 ---
 
 ## 8. Move and rename files
-
 Move a file into another directory:
-
 ```bash
 mv copy_me_backup.txt results/
+```
+
+Verify:
+```
 ls results
 ```
 
 Rename a file:
-
 ```bash
 mv copy_me.txt renamed_file.txt
+```
+
+Verify:
+```
 ls
 ```
 
 Move and rename at the same time:
-
 ```bash
 mv renamed_file.txt drafts/final_notes.txt
-ls drafts
 ```
 
+Verify:
+```
+ls drafts
+```
 ---
 
 ## 9. Remove files and directories
-
 Remove a file:
-
 ```bash
 rm drafts/final_notes.txt
+```
+
+Verify:
+```
 ls drafts
 ```
 
 Remove a directory and everything inside it:
-
 ```bash
 rm -r drafts_copy
+```
+
+Verify:
+```
 ls
 ```
 
@@ -402,7 +426,6 @@ ls
 ---
 
 ## 10. View file contents
-
 Use the file you already created:
 
 ```bash
@@ -410,25 +433,21 @@ cat notes.txt
 ```
 
 Show only the first lines:
-
 ```bash
 head notes.txt
 ```
 
 Show only the last lines:
-
 ```bash
 tail notes.txt
 ```
 
 Open it page by page:
-
 ```bash
 less notes.txt
 ```
 
 ### Useful `less` controls
-
 - `q` — quit
 - `/` followed by a pattern — search inside the file
 - `n` — next match
@@ -443,7 +462,6 @@ less notes.txt
 ---
 
 ## 11. Mini challenge
-
 In `scratch` directory you created earlier, do the following:
 
 1. create a directory called `project_demo`and move into it
