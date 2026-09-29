@@ -18,12 +18,12 @@ Please follow this guide to set up your working environment.
 Please connect to the public Wifi (name: Public). The Wifi password will be communicated by your facilitators.
 
 ## Data
-Create target directory
+Create target directory:
 ```bash
 mkdir ~/Documents/data
 ```
 
-Go to directory
+Go to directory:
 ```bash
 cd ~/Documents/data
 ```
@@ -38,13 +38,13 @@ Sequencing was performed on an FLO-MIN114 flow cell using **high-accuracy baseca
 
 The reads were taxonomically classified with [Kraken2](https://github.com/DerrickWood/kraken2) using the `PlusPF` database. Reads classified as human were removed using [`extract_kraken_reads.py`](https://github.com/jenniferlu717/KrakenTools/blob/master/extract_kraken_reads.py). The deposited files therefore represent the non-human read subset.
 
-Download data from Zenodo
+Download data from Zenodo:
 ```bash
 wget https://zenodo.org/records/22815134/files/testrun_mpox_amplicon_minion_yale-mpox-2000.tar.gz
 ```
 While the data is being downloaded, you can continue with the tutorial in a separate terminal.
 
-Once the download is finished, extract the archive
+Once the download is finished, extract the archive:
 ```bash
 tar -xvzf testrun_mpox_amplicon_minion_yale-mpox-2000.tar.gz
 ```
@@ -57,26 +57,25 @@ testrun_mpox_amplicon_minion_yale-mpox-2000/
     └── barcode08.excluding_human.fastq.gz
 ```
 
-Make sure you are in the right directory
+Make sure you are in the right directory:
 ```bash
 cd ~/Documents/data
 ```
 
-Verify data download
+Verify data download:
 ```bash
 ls testrun_mpox_amplicon_minion_yale-mpox-2000/fastq_pass
 ```
 
 ## Docker
+[Docker](https://www.docker.com/) is a tool for running software in *containers*. A container bundles a program together with everything it needs to run, such as libraries, dependencies and the right versions of each. This means a tool behaves the same way on every computer, regardless of what else is installed.
 
-Check if you have docker installed on your machine
+In this workshop, we use Docker together with Nextflow. Each step of the pipeline runs inside its own container, which Nextflow downloads and starts automatically. You don't need to install the individual bioinformatics tools yourself.
+
+Check if you have docker installed on your machine:
 ```bash
 docker run hello-world
 ```
-
-[Docker](https://www.docker.com/) is a tool for running software in *containers*. A container bundles a program together with everything it needs to run, such as libraries, dependencies and the right versions of each. This means a tool behaves the same way on every computer, regardless of what else is installed.
-
-In this workshop, we use Docker together with Nextflow. Each step of the pipeline runs inside its own container, which Nextflow downloads and starts automatically. You don't need to install the individual bioinformatics tools yourself. 
 
 Remove any conflicting old packages. It is fine if `apt` reports that none of them are installed.
 ```bash
@@ -85,7 +84,7 @@ for pkg in docker.io docker-doc docker-compose docker-compose-v2 podman-docker c
 done
 ```
 
-Install the prerequisites and add Docker's official GPG key
+Install the prerequisites and add Docker's official GPG key:
 ```bash
 sudo apt update
 sudo apt install -y ca-certificates curl
@@ -94,7 +93,7 @@ sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyring
 sudo chmod a+r /etc/apt/keyrings/docker.asc
 ```
 
-Add the Docker repository
+Add the Docker repository:
 ```bash
 sudo tee /etc/apt/sources.list.d/docker.sources <<EOF
 Types: deb
@@ -105,13 +104,13 @@ Signed-By: /etc/apt/keyrings/docker.asc
 EOF
 ```
 
-Install Docker Engine
+Install Docker Engine:
 ```bash
 sudo apt update
 sudo apt install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 ```
 
-Start Docker and enable it at boot
+Start Docker and enable it at boot:
 ```bash
 sudo systemctl enable --now docker
 ```
@@ -123,7 +122,7 @@ sudo usermod -aG docker $USER
 
 **Log out and log back in** for the group change to take effect.
 
-Verify the installation
+Verify the installation:
 ```bash
 docker run hello-world
 ```
@@ -133,25 +132,24 @@ If you see `Hello from Docker!`, Docker is working.
 ## Git
 [Git](https://git-scm.com/) is a version control system. It keeps track of changes to files over time, so you can see what changed, when, and by whom, and go back to earlier versions if needed. Git is widely used to share code, and platforms such as [GitHub](https://github.com/) host Git repositories online.
 
-Check if you have Git installed.
+Check if you have Git installed:
 ```bash
 git --version
 ```
 
-Install Git with `apt`
+Install Git with `apt`:
 ```bash
 sudo apt update
 sudo apt install -y git
 ```
 
-Verify the installation
+Verify the installation:
 ```bash
 git --version
 ```
 
 ## Miniforge
-
-Check if you already have conda or mamba
+Check if you already have conda or mamba:
 ```bash
 conda --version
 mamba --version
@@ -162,13 +160,12 @@ If you do not have it installed, you can install miniforge.
 [Miniforge](https://github.com/conda-forge/miniforge) provides `conda` and `mamba` through the community-maintained `conda-forge` channel. It is a fully open-source distribution and avoids reliance on Anaconda's default package repositories, whose use may be subject to commercial licensing terms.
 
 Download the installer:
-
 ```bash
 wget -O Miniforge3.sh \
   "https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-$(uname)-$(uname -m).sh"
 ```
 
-Run the installer
+Run the installer:
 ```bash
 bash Miniforge3.sh
 ```
@@ -177,12 +174,12 @@ Follow the prompts and answer `yes` when asked to initialize conda.
 
 **Close and reopen the terminal** for the changes to take effect.
 
-Remove the installer file
+Remove the installer file:
 ```bash
 rm Miniforge3.sh
 ```
 
-Verify the installation
+Verify the installation:
 ```bash
 conda --version
 ```
@@ -192,7 +189,7 @@ Add the `bioconda` channel after `conda-forge`. The `--prepend` option places a 
 conda config --append channels bioconda
 ```
 
-Verify the channel order
+Verify the channel order:
 ```bash
 conda config --show channels
 ```
