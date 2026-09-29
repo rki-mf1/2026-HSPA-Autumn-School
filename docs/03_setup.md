@@ -25,7 +25,6 @@ Open a terminal and create the workshop directory:
 ```bash
 mkdir 2026-HSPA-Autumn-School
 ```
----
 
 ## Editor
 [VSCodium](https://vscodium.com/) is a free and open-source code editor. It is built from the same source code as Microsoft's Visual Studio Code, but without Microsoft's branding and telemetry. You can use it to browse and edit files, view scripts and configuration files, and run commands in a built-in terminal, all in one window.
@@ -59,8 +58,6 @@ sudo apt install -y codium
 
 Open VSCodium, open the directory `2026-HSPA-Autumn-School` in VSCodium (Open Folder...) and continue the set up there.
 To open a terminal in VSCodium, select Terminal -> New Terminal in the top bar.
-
----
 
 ## Data
 Create target directory:
@@ -111,8 +108,6 @@ Verify data download:
 ```bash
 ls testrun_mpox_amplicon_minion_yale-mpox-2000/fastq_pass
 ```
-
----
 
 ## Docker
 [Docker](https://www.docker.com/) is a tool for running software in *containers*. A container bundles a program together with everything it needs to run, such as libraries, dependencies and the right versions of each. This means a tool behaves the same way on every computer, regardless of what else is installed.
@@ -175,8 +170,6 @@ docker run hello-world
 ```
 
 If you see `Hello from Docker!`, Docker is working.
-
----
 
 ## Git
 [Git](https://git-scm.com/) is a version control system. It keeps track of changes to files over time, so you can see what changed, when, and by whom, and go back to earlier versions if needed. Git is widely used to share code, and platforms such as [GitHub](https://github.com/) host Git repositories online.
