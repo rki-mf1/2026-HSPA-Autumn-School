@@ -17,6 +17,42 @@ Please follow this guide to set up your working environment.
 ## Wifi
 Please connect to the public Wifi (name: Public). The Wifi password will be communicated by your facilitators.
 
+## Editor
+[VSCodium](https://vscodium.com/) is a free and open-source code editor. It is built from the same source code as Microsoft's Visual Studio Code, but without Microsoft's branding and telemetry. You can use it to browse and edit files, view scripts and configuration files, and run commands in a built-in terminal, all in one window.
+
+In this workshop, we use VSCodium to open the workshop repository, look at the pipeline files and inspect results. You can use another text editor if you prefer, but VSCodium makes it easier to follow along.
+
+Add the GPG key of the VSCodium repository
+```bash
+wget -qO - https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/raw/master/pub.gpg \
+    | gpg --dearmor \
+    | sudo dd of=/usr/share/keyrings/vscodium-archive-keyring.gpg
+```
+
+Add the repository (Ubuntu 24.04 or newer)
+```bash
+echo -e 'Types: deb\nURIs: https://download.vscodium.com/debs\nSuites: vscodium\nComponents: main\nArchitectures: amd64 arm64\nSigned-by: /usr/share/keyrings/vscodium-archive-keyring.gpg' \
+    | sudo tee /etc/apt/sources.list.d/vscodium.sources
+```
+
+On Ubuntu 23.10 or older, use this command instead
+```bash
+echo 'deb [arch=amd64,arm64 signed-by=/usr/share/keyrings/vscodium-archive-keyring.gpg] https://download.vscodium.com/debs vscodium main' \
+    | sudo tee /etc/apt/sources.list.d/vscodium.list
+```
+
+Install VSCodium:
+```bash
+sudo apt update
+sudo apt install -y codium
+```
+
+Open the workshop repository in VSCodium:
+``` bash
+cd ~/2026-HSPA-Autumn-School
+codium .
+```
+
 ## Data
 Create target directory:
 ```bash
