@@ -7,7 +7,7 @@ has_toc: false
 permalink: /setup/
 ---
 
-### Setup
+## Setup
 *Using a workshop laptop?*
 Your laptop has already been set up for the workshop. Before we start, please check that the required software and data are available. After the workshop, you can use this guide to repeat the workflow on your own machine.
 
