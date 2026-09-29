@@ -200,3 +200,9 @@ channels:
   - conda-forge
   - bioconda
 ```
+
+## Workshop directory
+Finally, create the workshop directory:
+```bash
+mkdir 2026-HSPA-Autumn-School
+```
