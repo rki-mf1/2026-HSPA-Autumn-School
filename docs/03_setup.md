@@ -184,7 +184,7 @@ Verify the installation:
 conda --version
 ```
 
-Add the `bioconda` channel after `conda-forge`. The `--prepend` option places a channel at the bottom of the list, so `conda-forge` stays the first priority.
+Add the `bioconda` channel after `conda-forge`. The `--append` option places a channel at the bottom of the list, so `conda-forge` stays the first priority.
 ```bash
 conda config --append channels bioconda
 ```
