@@ -7,35 +7,45 @@ has_toc: false
 permalink: /setup/
 ---
 
-## Setup
+Setup
+
 *Using a workshop laptop?*
 Your laptop has already been set up for the workshop. Before we start, please check that the required software and data are available. After the workshop, you can use this guide to repeat the workflow on your own machine.
 
 *Using your own laptop?*
 Please follow this guide to set up your working environment.
 
+**Tip**: To paste into the terminal, press Ctrl + Shift + V (Linux) or Cmd + V (macOS).
+
 ## Wifi
 Please connect to the public Wifi (name: Public). The Wifi password will be communicated by your facilitators.
+
+## Workshop directory
+Open a terminal and create the workshop directory:
+```bash
+mkdir 2026-HSPA-Autumn-School
+```
+---
 
 ## Editor
 [VSCodium](https://vscodium.com/) is a free and open-source code editor. It is built from the same source code as Microsoft's Visual Studio Code, but without Microsoft's branding and telemetry. You can use it to browse and edit files, view scripts and configuration files, and run commands in a built-in terminal, all in one window.
 
 In this workshop, we use VSCodium to open the workshop repository, look at the pipeline files and inspect results. You can use another text editor if you prefer, but VSCodium makes it easier to follow along.
 
-Add the GPG key of the VSCodium repository
+Add the GPG key of the VSCodium repository:
 ```bash
 wget -qO - https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/raw/master/pub.gpg \
     | gpg --dearmor \
     | sudo dd of=/usr/share/keyrings/vscodium-archive-keyring.gpg
 ```
 
-Add the repository (Ubuntu 24.04 or newer)
+Add the repository:
 ```bash
 echo -e 'Types: deb\nURIs: https://download.vscodium.com/debs\nSuites: vscodium\nComponents: main\nArchitectures: amd64 arm64\nSigned-by: /usr/share/keyrings/vscodium-archive-keyring.gpg' \
     | sudo tee /etc/apt/sources.list.d/vscodium.sources
 ```
 
-On Ubuntu 23.10 or older, use this command instead
+On Ubuntu 23.10 or older, use this command instead:
 ```bash
 echo 'deb [arch=amd64,arm64 signed-by=/usr/share/keyrings/vscodium-archive-keyring.gpg] https://download.vscodium.com/debs vscodium main' \
     | sudo tee /etc/apt/sources.list.d/vscodium.list
@@ -47,11 +57,10 @@ sudo apt update
 sudo apt install -y codium
 ```
 
-Open the workshop repository in VSCodium:
-``` bash
-cd ~/2026-HSPA-Autumn-School
-codium .
-```
+Open VSCodium, open the directory `2026-HSPA-Autumn-School` in VSCodium (Open Folder...) and continue the set up there.
+To open a terminal in VSCodium, select Terminal -> New Terminal in the top bar.
+
+---
 
 ## Data
 Create target directory:
@@ -102,6 +111,8 @@ Verify data download:
 ```bash
 ls testrun_mpox_amplicon_minion_yale-mpox-2000/fastq_pass
 ```
+
+---
 
 ## Docker
 [Docker](https://www.docker.com/) is a tool for running software in *containers*. A container bundles a program together with everything it needs to run, such as libraries, dependencies and the right versions of each. This means a tool behaves the same way on every computer, regardless of what else is installed.
@@ -164,6 +175,8 @@ docker run hello-world
 ```
 
 If you see `Hello from Docker!`, Docker is working.
+
+---
 
 ## Git
 [Git](https://git-scm.com/) is a version control system. It keeps track of changes to files over time, so you can see what changed, when, and by whom, and go back to earlier versions if needed. Git is widely used to share code, and platforms such as [GitHub](https://github.com/) host Git repositories online.
@@ -235,10 +248,4 @@ The output should list `conda-forge` first and `bioconda` second:
 channels:
   - conda-forge
   - bioconda
-```
-
-## Workshop directory
-Finally, create the workshop directory:
-```bash
-mkdir 2026-HSPA-Autumn-School
 ```
