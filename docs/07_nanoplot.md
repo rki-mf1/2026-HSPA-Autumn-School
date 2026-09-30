@@ -28,7 +28,6 @@ In this practical, we will inspect the MPXV amplicon reads from **barcode08** be
 `NanoPlot` is used here for **inspection only**. We will not filter the reads before running `artic-mpxv-nf`, because the ARTIC workflow performs amplicon-specific read filtering during the analysis.
 
 The input data are located in:
-
 ```text
 ~/Documents/data/testrun_mpox_amplicon_minion_yale-mpox-2000/fastq_pass
 ```
@@ -95,7 +94,7 @@ cd ~/2026-HSPA-Autumn-School
 Run `NanoPlot` directly on the FASTQ files from **barcode08**:
 ```bash
 NanoPlot \
-    --fastq data/testrun_mpox_amplicon_minion_yale-mpox-2000/fastq_pass/barcode08.excluding_human.fastq.gz \
+    --fastq data/raw/barcode08.excluding_human.fastq.gz \
     --title "Barcode 08 (raw)" \
     --prefix barcode08_raw_ \
     --N50 \
