@@ -1,15 +1,12 @@
 ---
 title: Linux - Mini Challenges
 parent: Linux
-nav_order: 3
+nav_order: 2
 nav_exclude: false
 permalink: /linux_mini_challenges/
 ---
 
 # Mini Challenges: Navigation and File Management
-
----
-
 These challenges help you practice the commands from [Linux - Navigation and File Management](../linux_navigation/). Try to solve them without looking at the solution first.
 
 ---
