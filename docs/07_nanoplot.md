@@ -73,12 +73,12 @@ mkdir -p analysis/01_nanoplot/barcode08
 ---
 
 ## 2. Inspect the data
-View the whole file without cutting lines:
+View the whole file content without wrapped lines:
 ```bash
 less -S data/raw/barcode08.excluding_human.fastq.gz
 ```
 
-View the whole with lines cut:
+... with lines wrapped:
 ```bash
 less data/raw/barcode08.excluding_human.fastq.gz
 ```
@@ -91,7 +91,7 @@ Navigate to your project folder:
 cd ~/2026-HSPA-Autumn-School
 ```
 
-Run `NanoPlot` directly on the FASTQ files from **barcode08**:
+Run `NanoPlot` directly on the FASTQ file from **barcode08**:
 ```bash
 NanoPlot \
     --fastq data/raw/barcode08.excluding_human.fastq.gz \
@@ -100,6 +100,14 @@ NanoPlot \
     --N50 \
     --threads 4 \
     --outdir analysis/01_nanoplot/barcode08
+```
+
+{: .note }
+The command is split into individual lines per option and argument for readbility reasons. Alternatively, you can run a one-liner.
+
+Run `NanoPlot` directly on the FASTQ file from **barcode08**:
+```bash
+NanoPlot --fastq data/raw/barcode08.excluding_human.fastq.gz --title "Barcode 08 (raw)" --prefix barcode08_raw_ --N50 --threads 4 --outdir analysis/01_nanoplot/barcode08
 ```
 
 Important options:
