@@ -1,14 +1,12 @@
 ---
 title: Linux - Viewing, Editing, Compressing, and Searching Files
 parent: Linux
-nav_order: 2
+nav_order: 3
 nav_exclude: false
 permalink: /linux_files/
 ---
 
 # Viewing, Editing, Compressing, and Searching Files
-
----
 
 ## 🎯 Learning objectives
 
