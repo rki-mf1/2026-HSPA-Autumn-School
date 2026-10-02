@@ -32,7 +32,7 @@ By the end of the workshop, participants will have acquired the practical and an
 - 🧪 **Week 1:**  Wet-lab — mpox ONT sequencing
 - 💻 **Week 2:**  Bioinformatics — processing, analysis, interpretation, and reporting of ONT sequencing data
 
-A detailed day-by-day programme is available on the [Agenda](/agenda/) page.
+A detailed day-by-day programme is available on the [Agenda]({{ '/agenda/' | relative_url }}) page.
 
 ---
 
@@ -69,6 +69,7 @@ Upon completion of the workshop, participants will be able to:
 ---
 
 ## Organizers at Robert Koch Institute
+
 
 **Centre for International Health Protection (ZIG)**  
 Public Health Laboratory Support (ZIG 4)  
