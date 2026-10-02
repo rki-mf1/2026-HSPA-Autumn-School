@@ -9,13 +9,81 @@ permalink: /setup/
 
 # Setup
 
+**Tip**: To paste into the terminal, press Ctrl + Shift + V (Linux) or Cmd + V (macOS).
+
 *Using a workshop laptop?*
 Your laptop has already been set up for the workshop. Before we start, please check that the required software and data are available. After the workshop, you can use this guide to repeat the workflow on your own machine.
 
+## Checklist for workshop laptops
+If you are using a workshop laptop, you do not need to install anything. Work through this checklist instead. If a check fails, let a facilitator know.
+
+- [ ] Wifi connected (see [Wifi](#wifi))
+- [ ] Workshop directory exists
+- [ ] VSCodium opens
+- [ ] Docker runs without `sudo`
+- [ ] Git is installed
+- [ ] Conda and mamba are installed, with `conda-forge` and `bioconda` channels
+- [ ] Nextflow is installed
+- [ ] Toy dataset is downloaded and intact
+
+Open VSCodium. Run the following checks.
+
+**Workshop directory**
+```bash
+ls -d ~/2026-HSPA-Autumn-School
+```
+The path should be printed. An error like `No such file or directory` means the directory is missing.
+
+**Docker**
+```bash
+docker run hello-world
+```
+You should see `Hello from Docker!`. If you get a `permission denied` error, your user is not in the `docker` group. Ask a facilitator.
+
+**Git**
+```bash
+git --version
+```
+
+**Conda**
+```bash
+conda --version
+conda config --show channels
+```
+Both commands should print a version number. The channel list should show `conda-forge` first and `bioconda` second.
+
+**Nextflow**
+```bash
+conda env list
+```
+You should see an environment named nextflow.
+
+**Data**
+```bash
+ls -lh ~/Documents/data/testrun_mpox_amplicon_minion_yale-mpox-2000/fastq_pass
+```
+You should see both files:
+```
+barcode07.excluding_human.fastq.gz
+barcode08.excluding_human.fastq.gz
+```
+
+Check that the files are not corrupted:
+```bash
+gzip -t ~/Documents/data/testrun_mpox_amplicon_minion_yale-mpox-2000/fastq_pass/*.fastq.gz && echo "Data OK"
+```
+If you see `Data OK`, the files are intact.
+
+Look at the first read to confirm it is a FASTQ file:
+```bash
+zcat ~/Documents/data/testrun_mpox_amplicon_minion_yale-mpox-2000/fastq_pass/barcode07.excluding_human.fastq.gz | head -n 4
+```
+You should see four lines: a header starting with `@`, the sequence, a `+`, and the quality string.
+
+All checks passed? You are ready to go. You can skip the rest of this page.
+
 *Using your own laptop?*
 Please follow this guide to set up your working environment.
-
-**Tip**: To paste into the terminal, press Ctrl + Shift + V (Linux) or Cmd + V (macOS).
 
 ## Wifi
 Please connect to the Wifi. 
