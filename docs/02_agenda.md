@@ -1,272 +1,594 @@
 ---
 title: Agenda
 nav_order: 2
-nav_exclude: false
-has_children: false
-has_toc: false
 permalink: /agenda/
+has_toc: false
 ---
 
-# Agenda
+<div style="margin:0 0 1.5rem;padding:1.1rem 1.35rem;background:#0B70B8;color:#FFFFFF;">
+<div style="padding:1.15rem 1.25rem;background:#5B9BD5;">
+<p style="margin:0 0 0.35rem;font-size:1.15rem;font-weight:700;">AGENDA | HSPA Autumn School</p>
+<p style="margin:0 0 0.45rem;font-size:1.65rem;font-weight:700;">Mpox ONT Sequencing and Bioinformatics</p>
+<p style="margin:0;">5–16 October 2026<br>Robert Koch Institute, Berlin</p>
+</div>
+</div>
 
-<style>
-.agenda-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin: 0.5rem 0 2rem 0;
-  font-size: 0.95rem;
-}
-.agenda-table th {
-  background: #3d8df5;
-  color: white;
-  text-align: left;
-  padding: 0.5rem 0.6rem;
-  border: 1px solid #b8c2cc;
-}
-.agenda-table td {
-  padding: 0.45rem 0.6rem;
-  border: 1px solid #b8c2cc;
-  vertical-align: top;
-}
-.agenda-table .meta {
-  background: #fff4c7;
-  font-weight: 600;
-}
-.agenda-table .topic {
-  background: #fff7d6;
-}
-.agenda-table .wetlab {
-  background: #f9d6d2;
-}
-.agenda-table .bioinfo {
-  background: #d8f0fb;
-}
-.agenda-table .break {
-  background: #eee9fb;
-  font-weight: 600;
-}
-.agenda-table .shared {
-  background: #f3f4f6;
-}
-.agenda-table .note {
-  background: #fff1f1;
-}
-.week-label {
-  display: inline-block;
-  padding: 0.35rem 0.7rem;
-  margin-bottom: 0.5rem;
-  font-weight: 700;
-  border-radius: 4px;
-}
-.week1-label { background: #f2c200; }
-.week2-label { background: #d8f0fb; }
-</style>
+## Week 1 | ONT Sequencing &amp; Bioinformatics
 
-## Week 1 - Agenda
+### Day 1 | Monday | 05.10.2026 | Nordufer - N04.A.03.028
 
-<span class="week-label week1-label">🧪 Week 1 — Wet-Lab & Bioinformatics</span>
-
-### 05.10.2026 — Monday
-
-<table class="agenda-table">
+<table class="agenda-table" aria-label="Agenda table 1" style="width:100%;border-collapse:collapse;table-layout:fixed;margin:0 0 1.35rem;border:1px solid #202020;font-family:Georgia,'Times New Roman',serif;font-size:0.96rem;color:#203864;">
+<colgroup>
+<col style="width:14.29%">
+<col style="width:28.57%">
+<col style="width:28.57%">
+<col style="width:28.57%">
+</colgroup>
 <thead>
-<tr><th style="width:18%">Time</th><th style="width:18%">Group</th><th>Activity</th></tr>
-</thead>
-<tbody>
-<tr><td>09:00 - 09:40</td><td>All</td><td class="shared">Welcome; Introductions; Admin Briefing; RKI Rules</td></tr>
-<tr><td>09:40 - 10:00</td><td>All</td><td class="shared">Project Lead Briefing</td></tr>
-<tr><td>10:00 - 10:15</td><td>All</td><td class="shared">Pre-Workshop evaluation</td></tr>
-<tr><td>10:15 - 10:30</td><td>All</td><td class="break">☕ Coffee Break</td></tr>
-<tr><td>10:30 - 12:00</td><td>All</td><td class="shared">Lecture on MPVX (presentation)</td></tr>
-<tr><td>12:00 - 13:00</td><td>All</td><td class="break">🍽️ Lunch Break</td></tr>
-<tr><td>13:00 - 14:00</td><td>All</td><td class="shared">Participants presentation (2x)</td></tr>
-<tr><td>14:00 - 15:00</td><td>All</td><td class="shared">ONT Sequencing Intro &amp; Workplan (presentation)</td></tr>
-<tr><td>15:00 - 15:15</td><td>All</td><td class="shared">Lab Security Briefing</td></tr>
-<tr><td>15:15 - 15:30</td><td>All</td><td class="shared">Group Allocation</td></tr>
-<tr><td>15:30 - 15:45</td><td>All</td><td class="break">☕ Coffee Break</td></tr>
-<tr><td>15:45 - 16:45</td><td><strong>Group A</strong></td><td class="wetlab"><strong>🧪 PCR Setup</strong></td></tr>
-<tr><td>15:45 - 16:45</td><td><strong>Group B</strong></td><td class="bioinfo"><strong>💻 Computer Setup</strong></td></tr>
-<tr><td>17:00 - 18:00</td><td><strong>Group A</strong></td><td class="bioinfo"><strong>💻 Computer Setup</strong></td></tr>
-<tr><td>17:00 - 18:00</td><td><strong>Group B</strong></td><td class="wetlab"><strong>🧪 PCR Setup</strong></td></tr>
+<tr>
+<th scope="col" style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#5B9BD5;color:#FFFFFF;font-weight:700;text-align:left;"><strong>Time</strong></th>
+<th colspan="2" scope="colgroup" style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#5B9BD5;color:#FFFFFF;font-weight:700;text-align:left;"><strong>Program</strong></th>
+<th scope="col" style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#5B9BD5;color:#FFFFFF;font-weight:700;text-align:left;"><strong>Facilitators</strong></th>
+</tr>
+</thead><tbody>
+<tr>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;">09:00 - 09:40</td>
+<td colspan="2" style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;">Welcome; Introductions; Admin Briefing; RKI Rules</td>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;font-style:italic;">G. Githure; B. Arnold</td>
+</tr>
+<tr>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;">09:40 - 10:00</td>
+<td colspan="2" style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;">Project Lead Briefing</td>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;font-style:italic;">S. Weiß</td>
+</tr>
+<tr>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;">10:00 - 10:15</td>
+<td colspan="2" style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;">Pre-Workshop Evaluation</td>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;font-style:italic;">G. Githure; V. Bajić; F. Kistner</td>
+</tr>
+<tr>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#F9F1F9;">10:15 - 10:30</td>
+<td colspan="3" style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#F9F1F9;">☕<strong> </strong><strong>Coffee Break</strong></td>
+</tr>
+<tr>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#FFF2CC;">10:30 - 12:30</td>
+<td colspan="2" style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#FFF2CC;"><strong>⭐</strong><strong> </strong>Lecture | MPXV</td>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#FFF2CC;font-style:italic;">A. Nitsche</td>
+</tr>
+<tr>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#F9F1F9;">12:30 - 13:45</td>
+<td colspan="3" style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#F9F1F9;">🍽️<strong> Lunch Break</strong></td>
+</tr>
+<tr>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;">14:00 - 15:00</td>
+<td colspan="2" style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;">ONT Sequencing Intro &amp; Workplan (presentation)</td>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;font-style:italic;">G. Githure</td>
+</tr>
+<tr>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;">15:00 - 15:15</td>
+<td colspan="2" style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;">Lab Security Briefing</td>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;font-style:italic;">G. Githure</td>
+</tr>
+<tr>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;">15:15 - 15:30</td>
+<td colspan="2" style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;">Group Allocation</td>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;font-style:italic;">G. Githure</td>
+</tr>
+<tr>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#F9F1F9;">15:30 - 15:45</td>
+<td colspan="3" style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#F9F1F9;">☕<strong> Coffee Break</strong></td>
+</tr>
+<tr>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;">15:45 - 16:45</td>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#DEEAF6;"><strong>Group A</strong> 🧪<br>PCR Setup</td>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#FBE4D5;"><strong>Group B</strong> 💻<br>Computer Setup</td>
+<td rowspan="2" style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;font-style:italic;">Wet-Lab:<br>G. Githure; T. Pilz<br>Bioinformatics:<br>V. Bajić; F. Kistner</td>
+</tr>
+<tr>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;">17:00 - 18:00</td>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#DEEAF6;"><strong>Group A</strong> 💻<br>Computer Setup</td>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#FBE4D5;"><strong>Group B</strong> 🧪<br>PCR Setup</td>
+</tr>
 </tbody>
 </table>
 
-### 06.10.2026 — Tuesday
+### Day 2 | Tuesday | 06.10.2026 | Nordufer - N04.A.03.028
 
-<table class="agenda-table">
+<table class="agenda-table" aria-label="Agenda table 2" style="width:100%;border-collapse:collapse;table-layout:fixed;margin:0 0 1.35rem;border:1px solid #202020;font-family:Georgia,'Times New Roman',serif;font-size:0.96rem;color:#203864;">
+<colgroup>
+<col style="width:13.83%">
+<col style="width:26.64%">
+<col style="width:26.64%">
+<col style="width:32.90%">
+</colgroup>
 <thead>
-<tr><th style="width:18%">Time</th><th style="width:18%">Group</th><th>Activity</th></tr>
-</thead>
-<tbody>
-<tr><td>09:00 - 09:15</td><td>All</td><td class="shared">Daily Briefing</td></tr>
-<tr><td>09:30 - 12:00</td><td><strong>Group A</strong></td><td class="wetlab"><strong>🧪 PCR Clean Up &amp; QC</strong></td></tr>
-<tr><td>09:30 - 12:00</td><td><strong>Group B</strong></td><td class="bioinfo"><strong>💻 Linux Intro</strong></td></tr>
-<tr><td>12:00 - 13:00</td><td>All</td><td class="break">🍽️ Lunch Break</td></tr>
-<tr><td>13:00 - 14:00</td><td>All</td><td class="shared">Participants presentation (2x)</td></tr>
-<tr><td>14:00 - 16:30</td><td><strong>Group A</strong></td><td class="bioinfo"><strong>💻 Linux Intro</strong></td></tr>
-<tr><td>14:00 - 16:30</td><td><strong>Group B</strong></td><td class="wetlab"><strong>🧪 PCR Clean Up &amp; QC</strong></td></tr>
+<tr>
+<th scope="col" style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#5B9BD5;color:#FFFFFF;font-weight:700;text-align:left;"><strong>Time</strong></th>
+<th colspan="2" scope="colgroup" style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#5B9BD5;color:#FFFFFF;font-weight:700;text-align:left;"><strong>Program</strong></th>
+<th scope="col" style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#5B9BD5;color:#FFFFFF;font-weight:700;text-align:left;"><strong>Facilitators</strong></th>
+</tr>
+</thead><tbody>
+<tr>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;">09:00 - 09:15</td>
+<td colspan="2" style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;">Daily Briefing</td>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;font-style:italic;">G. Githure; B. Arnold</td>
+</tr>
+<tr>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;">09:30 - 12:00</td>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#DEEAF6;"><strong>Group A</strong> 🧪<br>PCR Clean Up &amp; QC</td>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#FBE4D5;"><strong>Group B</strong> 💻<br>Linux Intro</td>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;font-style:italic;">Wet-Lab:                    <br>G. Githure; T. Pilz<br>Bioinformatics:         <br>V. Bajić; F. Kistner; A. Conradie</td>
+</tr>
+<tr>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#F9F1F9;">12:00 - 13:00</td>
+<td colspan="3" style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#F9F1F9;">🍽️<strong> Lunch Break</strong></td>
+</tr>
+<tr>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#E2EFD9;">13:00 - 14:00</td>
+<td colspan="2" style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#E2EFD9;">Participants presentations (3x)</td>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#E2EFD9;font-style:italic;">G. Githure; V. Bajić</td>
+</tr>
+<tr>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;">14:00 - 16:30</td>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#DEEAF6;"><strong>Group A</strong> 💻<br>Linux Intro</td>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#FBE4D5;"><strong>Group B</strong> 🧪<br>PCR Clean Up &amp; QC</td>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;font-style:italic;">Wet-Lab:<br>G. Githure: T. Pilz<br>Bioinformatics:<br>V. Bajić; F. Kistner; A. Conradie</td>
+</tr>
 </tbody>
 </table>
 
-### 07.10.2026 — Wednesday
+### Day 3 | Wednesday | 07.10.2026 | Nordufer - N04.A.03.028
 
-<table class="agenda-table">
+<table class="agenda-table" aria-label="Agenda table 3" style="width:100%;border-collapse:collapse;table-layout:fixed;margin:0 0 1.35rem;border:1px solid #202020;font-family:Georgia,'Times New Roman',serif;font-size:0.96rem;color:#203864;">
+<colgroup>
+<col style="width:14.29%">
+<col style="width:28.57%">
+<col style="width:28.57%">
+<col style="width:28.57%">
+</colgroup>
 <thead>
-<tr><th style="width:18%">Time</th><th style="width:18%">Group</th><th>Activity</th></tr>
-</thead>
-<tbody>
-<tr><td>09:00 - 09:15</td><td>All</td><td class="shared">Daily Briefing</td></tr>
-<tr><td>09:15 - 12:00</td><td><strong>Group A</strong></td><td class="wetlab"><strong>🧪 Library Prep Part I</strong></td></tr>
-<tr><td>09:15 - 12:00</td><td><strong>Group B</strong></td><td class="bioinfo"><strong>💻 Linux Intro</strong></td></tr>
-<tr><td>12:00 - 13:00</td><td>All</td><td class="break">🍽️ Lunch Break</td></tr>
-<tr><td>13:00 - 14:00</td><td>All</td><td class="shared">Participants presentation (2x)</td></tr>
-<tr><td>14:00 - 18:00</td><td><strong>Group A</strong></td><td class="wetlab"><strong>🧪 Library Prep Part II &amp; Sequencing Set Up</strong></td></tr>
-<tr><td>14:00 - 18:00</td><td><strong>Group B</strong></td><td class="bioinfo"><strong>💻 Linux Intro</strong></td></tr>
+<tr>
+<th scope="col" style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#5B9BD5;color:#FFFFFF;font-weight:700;text-align:left;"><strong>Time</strong></th>
+<th scope="col" style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#5B9BD5;color:#FFFFFF;font-weight:700;text-align:left;"><strong>Program</strong></th>
+<th scope="col" style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#5B9BD5;color:#FFFFFF;font-weight:700;text-align:left;"><strong>Facilitators</strong></th>
+<th scope="col" style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#5B9BD5;color:#FFFFFF;font-weight:700;text-align:left;"><strong>Date</strong></th>
+</tr>
+</thead><tbody>
+<tr>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;">09:00 - 09:15</td>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;">Daily Briefing</td>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;">&nbsp;</td>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;font-style:italic;">G. Githure; B. Arnold</td>
+</tr>
+<tr>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;">09:15 - 12:00</td>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#DEEAF6;"><strong>Group A</strong> 🧪<br>Library Prep Part I</td>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#FBE4D5;"><strong>Group B</strong> 💻<br>Linux Intro</td>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;font-style:italic;">Wet-Lab:<br>G. Githure: T. Pilz<br>Bioinformatics: <br>V. Bajić; F. Kistner</td>
+</tr>
+<tr>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#F9F1F9;">12:00 - 13:00</td>
+<td colspan="3" style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#F9F1F9;">🍽️<strong> Lunch Break</strong></td>
+</tr>
+<tr>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#E2EFD9;">13:00 - 14:00</td>
+<td colspan="2" style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#E2EFD9;">Participants presentations (3x)</td>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#E2EFD9;font-style:italic;">G. Githure; V. Bajić</td>
+</tr>
+<tr>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;">14:00 - 18:00</td>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#DEEAF6;"><strong>Group A</strong> 🧪<br>Library prep part II &amp; Sequencing Set up</td>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#FBE4D5;"><strong>Group B</strong> 💻<br>Linux Intro</td>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;font-style:italic;">Wet-Lab: <br>G. Githure: T. Pilz<br>Bioinformatics:<br>V. Bajić; F. Kistner</td>
+</tr>
+<tr>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#F9F1F9;">19:00 - 22:00</td>
+<td colspan="3" style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#F9F1F9;">🍽️<strong> Dinner</strong></td>
+</tr>
 </tbody>
 </table>
 
-### 08.10.2026 — Thursday
+### Day 4 | Thursday | 08.10.2026 | Nordufer - N04.A.03.028
 
-<table class="agenda-table">
+<table class="agenda-table" aria-label="Agenda table 4" style="width:100%;border-collapse:collapse;table-layout:fixed;margin:0 0 1.35rem;border:1px solid #202020;font-family:Georgia,'Times New Roman',serif;font-size:0.96rem;color:#203864;">
+<colgroup>
+<col style="width:14.29%">
+<col style="width:28.57%">
+<col style="width:28.57%">
+<col style="width:28.57%">
+</colgroup>
 <thead>
-<tr><th style="width:18%">Time</th><th style="width:18%">Group</th><th>Activity</th></tr>
-</thead>
-<tbody>
-<tr><td>09:00 - 09:15</td><td>All</td><td class="shared">Daily Briefing</td></tr>
-<tr><td>09:30 - 12:00</td><td><strong>Group A</strong></td><td class="bioinfo"><strong>💻 Linux Intro</strong></td></tr>
-<tr><td>09:30 - 12:00</td><td><strong>Group B</strong></td><td class="wetlab"><strong>🧪 Library Prep Part I</strong></td></tr>
-<tr><td>12:00 - 13:00</td><td>All</td><td class="break">🍽️ Lunch Break</td></tr>
-<tr><td>13:00 - 14:00</td><td>All</td><td class="shared">Participants presentation (2x)</td></tr>
-<tr><td>14:00 - 18:00</td><td><strong>Group A</strong></td><td class="bioinfo"><strong>💻 Linux Intro</strong></td></tr>
-<tr><td>14:00 - 18:00</td><td><strong>Group B</strong></td><td class="wetlab"><strong>🧪 Library Prep Part II &amp; Sequencing Set Up</strong></td></tr>
+<tr>
+<th scope="col" style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#5B9BD5;color:#FFFFFF;font-weight:700;text-align:left;"><strong>Time</strong></th>
+<th colspan="2" scope="colgroup" style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#5B9BD5;color:#FFFFFF;font-weight:700;text-align:left;"><strong>Program</strong></th>
+<th scope="col" style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#5B9BD5;color:#FFFFFF;font-weight:700;text-align:left;"><strong>Facilitators</strong></th>
+</tr>
+</thead><tbody>
+<tr>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;">09:00 - 09:15</td>
+<td colspan="2" style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;">Daily Briefing</td>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;font-style:italic;">G. Githure; B. Arnold</td>
+</tr>
+<tr>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;">09:30 - 12:00</td>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#DEEAF6;"><strong>Group A</strong> 💻<br>Linux Intro</td>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#FBE4D5;"><strong>Group B</strong> 🧪<br>Library Prep Part I</td>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;font-style:italic;">Wet-Lab: <br>G. Githure: T. Pilz<br>Bioinformatics:<br>V. Bajić; F. Kistner; A. Conradie</td>
+</tr>
+<tr>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#F9F1F9;">12:00 - 13:00</td>
+<td colspan="3" style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#F9F1F9;">🍽️<strong> Lunch Break</strong></td>
+</tr>
+<tr>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#E2EFD9;">13:00 - 14:00</td>
+<td colspan="2" style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#E2EFD9;">Participants presentations (3x)</td>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#E2EFD9;font-style:italic;">G. Githure; V. Bajić</td>
+</tr>
+<tr>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;">14:00 - 18:00</td>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#DEEAF6;"><strong>Group A</strong> 💻<br>Linux Intro</td>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#FBE4D5;"><strong>Group B</strong> 🧪<br>Library prep part II &amp; Sequencing Set up</td>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;font-style:italic;">Wet-Lab: <br>G. Githure: T. Pilz<br>Bioinformatics: <br>V. Bajić; F. Kistner; A. Conradie</td>
+</tr>
 </tbody>
 </table>
 
-### 09.10.2026 — Friday
+### Day 5 | Friday | 09.10.2026 | Nordufer - N04.A.03.028 &amp; Seestr.
 
-<table class="agenda-table">
+<table class="agenda-table" aria-label="Agenda table 5" style="width:100%;border-collapse:collapse;table-layout:fixed;margin:0 0 1.35rem;border:1px solid #202020;font-family:Georgia,'Times New Roman',serif;font-size:0.96rem;color:#203864;">
+<colgroup>
+<col style="width:14.29%">
+<col style="width:57.14%">
+<col style="width:28.57%">
+</colgroup>
 <thead>
-<tr><th style="width:18%">Time</th><th style="width:18%">Group</th><th>Activity</th></tr>
-</thead>
-<tbody>
-<tr><td>09:00 - 09:15</td><td>All</td><td class="shared">Daily Briefing</td></tr>
-<tr><td>09:15 - 10:15</td><td>All</td><td class="wetlab">🧪 Wet lab final Briefing</td></tr>
-<tr><td>10:15 - 10:30</td><td>All</td><td class="break">☕ Coffee Break</td></tr>
-<tr><td>10:45 - 12:00</td><td>All</td><td class="bioinfo">💻 Sequencing Run Report &amp; Week 2 Briefing</td></tr>
-<tr><td>12:00 - 13:00</td><td>All</td><td class="break">🍽️ Lunch Break</td></tr>
-<tr><td>13:00 - 14:00</td><td>All</td><td class="shared">Participants presentation (2x)</td></tr>
-<tr><td>14:00 - 16:00</td><td><strong>Group A</strong></td><td class="note">Visit to MF1 / ZBS1</td></tr>
-<tr><td>14:00 - 16:00</td><td><strong>Group B</strong></td><td class="note">Visit to ZBS1 / MF1</td></tr>
+<tr>
+<th scope="col" style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#5B9BD5;color:#FFFFFF;font-weight:700;text-align:left;"><strong>Time</strong></th>
+<th scope="col" style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#5B9BD5;color:#FFFFFF;font-weight:700;text-align:left;"><strong>Program</strong></th>
+<th scope="col" style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#5B9BD5;color:#FFFFFF;font-weight:700;text-align:left;"><strong>Facilitators</strong></th>
+</tr>
+</thead><tbody>
+<tr>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;">09:00 - 09:15</td>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;">Daily Briefing</td>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;font-style:italic;">G. Githure; B. Arnold</td>
+</tr>
+<tr>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;">09:15 - 10:15</td>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;">Wet lab final Briefing</td>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;font-style:italic;">G. Githure</td>
+</tr>
+<tr>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#F9F1F9;">10:15 - 10:30</td>
+<td colspan="2" style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#F9F1F9;">☕<strong> Coffee Break</strong></td>
+</tr>
+<tr>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;">10:45 - 12:00</td>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;">Sequencing Run Report &amp; Week 2 Briefing</td>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;font-style:italic;">F. Kistner; V. Bajić</td>
+</tr>
+<tr>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#F9F1F9;">12:30 - 13:30</td>
+<td colspan="2" style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#F9F1F9;">🍽️<strong> Lunch Break Seestr</strong><strong>.</strong></td>
+</tr>
+<tr>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;">13:30- 14:30</td>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;">Visit to MF1 Seq-Lab | Seestr.</td>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;font-style:italic;">A. Radonic</td>
+</tr>
+<tr>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#E2EFD9;">14:30 - 15:30</td>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#E2EFD9;">Participants presentations (3x)</td>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#E2EFD9;font-style:italic;">G. Githure; V. Bajić</td>
+</tr>
 </tbody>
 </table>
 
-> **Pending confirmation:** Visits are planned in two groups, with one group at ZBS1 and the other at MF1, followed by switching.  
-> **Alternative:** Start Data Analysis; Seestr. visits can be planned the week after.
+### Optional Excursion to Potsdam | Sunday | 11.10.2026 | Pick up from hotel at 12:00 | Organized by B. Arnold
 
-### Bioinformatics Summary for Week 1
+## Week 2 | Bioinformatics
 
-- **Monday:** 1 h (2x — once per group) — Computer Setup
-- **Tuesday:** 2.5 h (2x — once per group) — Linux Intro
-- **Wednesday:** full day (1x — Group B) — Linux Intro
-- **Thursday:** full day (1x — Group A) — Linux Intro
-- **Friday:** 1.5 h (1x all together) — Sequencing Run Report & Week 2 Briefing
+### Day 6 | Monday | 12.10.2026 | Gerichtstr. - G00.05.12
 
----
+**Topic:** Linux Intro
 
-## Week 2 - Agenda
-
-<span class="week-label week2-label">💻 Week 2 — Bioinformatics</span>
-
-### 12.10.2026 — Monday
-
-<table class="agenda-table">
+<table class="agenda-table" aria-label="Agenda table 6" style="width:100%;border-collapse:collapse;table-layout:fixed;margin:0 0 1.35rem;border:1px solid #202020;font-family:Georgia,'Times New Roman',serif;font-size:0.96rem;color:#203864;">
+<colgroup>
+<col style="width:14.29%">
+<col style="width:57.14%">
+<col style="width:28.57%">
+</colgroup>
 <thead>
-<tr><th style="width:20%">Time</th><th>Activity</th></tr>
-</thead>
-<tbody>
-<tr><td>09:00 - 09:15</td><td class="topic"><strong>Daily Briefing</strong><br>Linux, Data Organization, and ONT sequencing file formats</td></tr>
-<tr><td>09:15 - 10:15</td><td>Theory</td></tr>
-<tr><td>10:15 - 10:30</td><td class="break">☕ Coffee Break</td></tr>
-<tr><td>10:30 - 12:00</td><td>Hands-On</td></tr>
-<tr><td>12:00 - 13:00</td><td class="break">🍽️ Lunch Break</td></tr>
-<tr><td>13:00 - 14:30</td><td>Hands-On</td></tr>
-<tr><td>14:30 - 14:45</td><td class="break">☕ Coffee Break</td></tr>
-<tr><td>14:45 - 16:00</td><td>Hands-On</td></tr>
-<tr><td>16:00 - 16:30</td><td>Wrap-up</td></tr>
+<tr>
+<th scope="col" style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#5B9BD5;color:#FFFFFF;font-weight:700;text-align:left;"><strong>Time</strong></th>
+<th scope="col" style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#5B9BD5;color:#FFFFFF;font-weight:700;text-align:left;"><strong>Program</strong></th>
+<th scope="col" style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#5B9BD5;color:#FFFFFF;font-weight:700;text-align:left;"><strong>Facilitators</strong></th>
+</tr>
+</thead><tbody>
+<tr>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;">09:00 - 09:15</td>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;">Daily Briefing</td>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;font-style:italic;">V. Bajić; F. Kistner</td>
+</tr>
+<tr>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;">09:15 - 10:15</td>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;">Theory</td>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;font-style:italic;">V. Bajić; F. Kistner</td>
+</tr>
+<tr>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#F9F1F9;">10:15 - 10:30</td>
+<td colspan="2" style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#F9F1F9;">☕<strong> Coffee Break</strong></td>
+</tr>
+<tr>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;">10:30 - 12:00</td>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;">Hands-On</td>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;font-style:italic;">V. Bajić; F. Kistner</td>
+</tr>
+<tr>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#F9F1F9;">12:00 - 13:00</td>
+<td colspan="2" style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#F9F1F9;">🍽️ <strong>Lunch Break</strong></td>
+</tr>
+<tr>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;">13:00 - 14:30</td>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;">Hands-On</td>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;font-style:italic;">V. Bajić; F. Kistner</td>
+</tr>
+<tr>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#F9F1F9;">14:30 - 14:45</td>
+<td colspan="2" style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#F9F1F9;">☕<strong> Coffee Break</strong></td>
+</tr>
+<tr>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;">14:45 - 16:00</td>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;">Hands-On</td>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;font-style:italic;">V. Bajić; F. Kistner</td>
+</tr>
+<tr>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;">16:00 - 16:30</td>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;">Wrap-up</td>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;font-style:italic;">V. Bajić; F. Kistner</td>
+</tr>
 </tbody>
 </table>
 
-### 13.10.2026 — Tuesday
+### Day 7 | Tuesday | 13.10.2026 | Gerichtstr. - G00.05.12
 
-<table class="agenda-table">
+**Topic:** Data Organization and Software Management
+
+<table class="agenda-table" aria-label="Agenda table 7" style="width:100%;border-collapse:collapse;table-layout:fixed;margin:0 0 1.35rem;border:1px solid #202020;font-family:Georgia,'Times New Roman',serif;font-size:0.96rem;color:#203864;">
+<colgroup>
+<col style="width:14.29%">
+<col style="width:57.14%">
+<col style="width:28.57%">
+</colgroup>
 <thead>
-<tr><th style="width:20%">Time</th><th>Activity</th></tr>
-</thead>
-<tbody>
-<tr><td>09:00 - 09:15</td><td class="topic"><strong>Daily Briefing</strong><br>Quality control and preprocessing of ONT sequencing reads</td></tr>
-<tr><td>09:15 - 10:15</td><td class="wetlab">Theory | Annika's presentation</td></tr>
-<tr><td>10:15 - 10:30</td><td class="break">☕ Coffee Break</td></tr>
-<tr><td>10:30 - 12:00</td><td>Hands-On</td></tr>
-<tr><td>12:00 - 13:00</td><td class="break">🍽️ Lunch Break</td></tr>
-<tr><td>13:00 - 14:30</td><td>Hands-On</td></tr>
-<tr><td>14:30 - 14:45</td><td class="break">☕ Coffee Break</td></tr>
-<tr><td>14:45 - 16:00</td><td>Hands-On</td></tr>
-<tr><td>16:00 - 16:30</td><td>Wrap-up</td></tr>
+<tr>
+<th scope="col" style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#5B9BD5;color:#FFFFFF;font-weight:700;text-align:left;"><strong>Time</strong></th>
+<th scope="col" style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#5B9BD5;color:#FFFFFF;font-weight:700;text-align:left;"><strong>Program</strong></th>
+<th scope="col" style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#5B9BD5;color:#FFFFFF;font-weight:700;text-align:left;"><strong>Facilitators</strong></th>
+</tr>
+</thead><tbody>
+<tr>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;">09:00 - 09:15</td>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;">Daily Briefing</td>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;font-style:italic;">V. Bajić; F. Kistner</td>
+</tr>
+<tr>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#FFF2CC;">09:15 - 10:15</td>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#FFF2CC;"><strong>⭐</strong><strong> </strong>Lecture | AmpliPox sequencing and data analysis</td>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#FFF2CC;font-style:italic;">A. Brinkmann</td>
+</tr>
+<tr>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#F9F1F9;">10:15 - 10:30</td>
+<td colspan="2" style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#F9F1F9;">☕<strong> Coffee Break</strong></td>
+</tr>
+<tr>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;">10:30 - 12:00</td>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;">Hands-On</td>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;font-style:italic;">V. Bajić; F. Kistner; A. Conradie</td>
+</tr>
+<tr>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#F9F1F9;">12:00 - 13:00</td>
+<td colspan="2" style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#F9F1F9;">🍽️<strong> Lunch Break</strong></td>
+</tr>
+<tr>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;">13:00 - 14:30</td>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;">Hands-On</td>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;font-style:italic;">V. Bajić; F. Kistner</td>
+</tr>
+<tr>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#F9F1F9;">14:30 - 14:45</td>
+<td colspan="2" style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#F9F1F9;">☕<strong> Coffee Break</strong></td>
+</tr>
+<tr>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;">14:45 - 16:00</td>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;">Hands-On</td>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;font-style:italic;">V. Bajić; F. Kistner</td>
+</tr>
+<tr>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;">16:00 - 16:30</td>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;">Wrap-up</td>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;font-style:italic;">V. Bajić; F. Kistner</td>
+</tr>
 </tbody>
 </table>
 
-### 14.10.2026 — Wednesday
+### Day 8 | Wednesday | 14.10.2026 | Gerichtstr. - G00.05.12
 
-<table class="agenda-table">
+**Topic:** ONT sequencing file formats and read QC
+
+<table class="agenda-table" aria-label="Agenda table 8" style="width:100%;border-collapse:collapse;table-layout:fixed;margin:0 0 1.35rem;border:1px solid #202020;font-family:Georgia,'Times New Roman',serif;font-size:0.96rem;color:#203864;">
+<colgroup>
+<col style="width:14.29%">
+<col style="width:57.14%">
+<col style="width:28.57%">
+</colgroup>
 <thead>
-<tr><th style="width:20%">Time</th><th>Activity</th></tr>
-</thead>
-<tbody>
-<tr><td>09:00 - 09:15</td><td class="topic"><strong>Daily Briefing</strong><br><strong>artic-mpxv-nf</strong><br>Mpox genome reconstruction, consensus generation, and genome quality assessment</td></tr>
-<tr><td>09:15 - 10:15</td><td>Theory</td></tr>
-<tr><td>10:15 - 10:30</td><td class="break">☕ Coffee Break</td></tr>
-<tr><td>10:30 - 12:00</td><td>Hands-On</td></tr>
-<tr><td>12:00 - 13:00</td><td class="break">🍽️ Lunch Break</td></tr>
-<tr><td>13:00 - 14:30</td><td>Hands-On</td></tr>
-<tr><td>14:30 - 14:45</td><td class="break">☕ Coffee Break</td></tr>
-<tr><td>14:45 - 16:00</td><td>Hands-On</td></tr>
-<tr><td>16:00 - 16:30</td><td>Wrap-up</td></tr>
+<tr>
+<th scope="col" style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#5B9BD5;color:#FFFFFF;font-weight:700;text-align:left;"><strong>Time</strong></th>
+<th scope="col" style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#5B9BD5;color:#FFFFFF;font-weight:700;text-align:left;"><strong>Program</strong></th>
+<th scope="col" style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#5B9BD5;color:#FFFFFF;font-weight:700;text-align:left;"><strong>Facilitators</strong></th>
+</tr>
+</thead><tbody>
+<tr>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;">09:00 - 09:15</td>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;">Daily Briefing</td>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;font-style:italic;">F. Kistner; V. Bajić</td>
+</tr>
+<tr>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#FFF2CC;">09:15 - 10:15</td>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#FFF2CC;"><strong>⭐</strong><strong> </strong>Lecture | German IGS project in the context of bioinformatic pipelines and genomic surveillance</td>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#FFF2CC;font-style:italic;">M. Lataretu</td>
+</tr>
+<tr>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#F9F1F9;">10:15 - 10:30</td>
+<td colspan="2" style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#F9F1F9;">☕<strong> Coffee Break</strong></td>
+</tr>
+<tr>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;">10:30 - 12:00</td>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;">Hands-On</td>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;font-style:italic;">F. Kistner; V. Bajić</td>
+</tr>
+<tr>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#F9F1F9;">12:00 - 13:00</td>
+<td colspan="2" style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#F9F1F9;">🍽️<strong> Lunch Break</strong></td>
+</tr>
+<tr>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;">13:00 - 14:30</td>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;">Hands-On</td>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;font-style:italic;">F. Kistner; V. Bajić</td>
+</tr>
+<tr>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#F9F1F9;">14:30 - 14:45</td>
+<td colspan="2" style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#F9F1F9;">☕<strong> Coffee Break</strong></td>
+</tr>
+<tr>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;">14:45 - 16:00</td>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;">Hands-On</td>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;font-style:italic;">F. Kistner; V. Bajić</td>
+</tr>
+<tr>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;">16:00 - 16:30</td>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;">Wrap-up</td>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;font-style:italic;">F. Kistner; V. Bajić</td>
+</tr>
 </tbody>
 </table>
 
-### 15.10.2026 — Thursday
+### Day 9 | Thursday | 15.10.2026 | Gerichtstr. - G00.05.12
 
-<table class="agenda-table">
+**Topic:** <a href="https://github.com/artic-network/artic-mpxv-nf">artic-mpxv-nf</a>
+
+<table class="agenda-table" aria-label="Agenda table 9" style="width:100%;border-collapse:collapse;table-layout:fixed;margin:0 0 1.35rem;border:1px solid #202020;font-family:Georgia,'Times New Roman',serif;font-size:0.96rem;color:#203864;">
+<colgroup>
+<col style="width:14.29%">
+<col style="width:57.14%">
+<col style="width:28.57%">
+</colgroup>
 <thead>
-<tr><th style="width:20%">Time</th><th>Activity</th></tr>
-</thead>
-<tbody>
-<tr><td>09:00 - 09:15</td><td class="topic"><strong>Daily Briefing</strong><br><strong>Nextclade</strong><br>Lineage assignment, comparative genomics, and phylogenetic analysis</td></tr>
-<tr><td>09:15 - 10:15</td><td>Theory</td></tr>
-<tr><td>10:15 - 10:30</td><td class="break">☕ Coffee Break</td></tr>
-<tr><td>10:30 - 12:00</td><td>Hands-On</td></tr>
-<tr><td>12:00 - 13:00</td><td class="break">🍽️ Lunch Break</td></tr>
-<tr><td>13:00 - 14:30</td><td>Hands-On</td></tr>
-<tr><td>14:30 - 14:45</td><td class="break">☕ Coffee Break</td></tr>
-<tr><td>14:45 - 16:00</td><td>Hands-On</td></tr>
-<tr><td>16:00 - 16:30</td><td>Wrap-up</td></tr>
+<tr>
+<th scope="col" style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#5B9BD5;color:#FFFFFF;font-weight:700;text-align:left;"><strong>Time</strong></th>
+<th scope="col" style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#5B9BD5;color:#FFFFFF;font-weight:700;text-align:left;"><strong>Program</strong></th>
+<th scope="col" style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#5B9BD5;color:#FFFFFF;font-weight:700;text-align:left;"><strong>Facilitators</strong></th>
+</tr>
+</thead><tbody>
+<tr>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;">09:00 - 09:15</td>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;">Daily Briefing</td>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;font-style:italic;">V. Bajić; F. Kistner</td>
+</tr>
+<tr>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;">09:15 - 10:15</td>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;">Theory</td>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;font-style:italic;">V. Bajić; F. Kistner</td>
+</tr>
+<tr>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#F9F1F9;">10:15 - 10:30</td>
+<td colspan="2" style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#F9F1F9;">☕<strong> Coffee Break</strong></td>
+</tr>
+<tr>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;">10:30 - 12:00</td>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;">Hands-On</td>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;font-style:italic;">V. Bajić; F. Kistner; A. Conradie</td>
+</tr>
+<tr>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#F9F1F9;">12:00 - 13:00</td>
+<td colspan="2" style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#F9F1F9;">🍽️<strong> Lunch Break</strong></td>
+</tr>
+<tr>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;">13:00 - 14:30</td>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;">Hands-On</td>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;font-style:italic;">V. Bajić; F. Kistner; A. Conradie</td>
+</tr>
+<tr>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#F9F1F9;">14:30 - 14:45</td>
+<td colspan="2" style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#F9F1F9;">☕<strong> Coffee Break</strong></td>
+</tr>
+<tr>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;">14:45 - 16:00</td>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;">Hands-On</td>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;font-style:italic;">V. Bajić; F. Kistner</td>
+</tr>
+<tr>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;">16:00 - 16:30</td>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;">Wrap-up</td>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;font-style:italic;">V. Bajić; F. Kistner</td>
+</tr>
 </tbody>
 </table>
 
-### 16.10.2026 — Friday
+### Day 10 | Friday | 16.10.2026 | Gerichtstr. - G00.05.12
 
-<table class="agenda-table">
+**Topic:** <a href="https://clades.nextstrain.org/">Nextclade</a>
+
+<table class="agenda-table" aria-label="Agenda table 10" style="width:100%;border-collapse:collapse;table-layout:fixed;margin:0 0 1.35rem;border:1px solid #202020;font-family:Georgia,'Times New Roman',serif;font-size:0.96rem;color:#203864;">
+<colgroup>
+<col style="width:14.29%">
+<col style="width:57.14%">
+<col style="width:28.57%">
+</colgroup>
 <thead>
-<tr><th style="width:20%">Time</th><th>Activity</th></tr>
-</thead>
-<tbody>
-<tr><td>09:00 - 09:15</td><td class="topic"><strong>Daily Briefing</strong><br>Interpretation of results, reporting, participant data discussion, and final Q&amp;A<br><em>Visit to the museum could also be suggested</em></td></tr>
-<tr><td>09:15 - 10:15</td><td>Theory</td></tr>
-<tr><td>10:15 - 10:30</td><td class="break">☕ Coffee Break</td></tr>
-<tr><td>10:30 - 12:00</td><td>Hands-On</td></tr>
-<tr><td>12:00 - 13:00</td><td class="break">🍽️ Lunch Break</td></tr>
-<tr><td>13:00 - 14:45</td><td>Hands-On</td></tr>
-<tr><td>14:45 - 15:00</td><td class="break">☕ Coffee Break</td></tr>
-<tr><td>15:00 - 16:00</td><td>Final Wrap-up</td></tr>
+<tr>
+<th scope="col" style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#5B9BD5;color:#FFFFFF;font-weight:700;text-align:left;"><strong>Time</strong></th>
+<th scope="col" style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#5B9BD5;color:#FFFFFF;font-weight:700;text-align:left;"><strong>Program</strong></th>
+<th scope="col" style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#5B9BD5;color:#FFFFFF;font-weight:700;text-align:left;"><strong>Facilitators</strong></th>
+</tr>
+</thead><tbody>
+<tr>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;">09:00 - 09:15</td>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;">Daily Briefing</td>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;font-style:italic;">F. Kistner; V. Bajić</td>
+</tr>
+<tr>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;">09:15 - 10:15</td>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;">Theory</td>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;font-style:italic;">F. Kistner; V. Bajić</td>
+</tr>
+<tr>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#F9F1F9;">10:15 - 10:30</td>
+<td colspan="2" style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#F9F1F9;">☕<strong> Coffee Break</strong></td>
+</tr>
+<tr>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;">10:30 - 12:00</td>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;">Hands-On</td>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;font-style:italic;">F. Kistner; V. Bajić</td>
+</tr>
+<tr>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#F9F1F9;">12:00 - 13:00</td>
+<td colspan="2" style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#F9F1F9;">🍽️<strong> Lunch Break</strong></td>
+</tr>
+<tr>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;">13:00 - 14:45</td>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;">Hands-On</td>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;font-style:italic;">F. Kistner; V. Bajić</td>
+</tr>
+<tr>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#F9F1F9;">14:45 - 15:00</td>
+<td colspan="2" style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#F9F1F9;">☕<strong> Coffee Break</strong></td>
+</tr>
+<tr>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;">15:00 - 16:00</td>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;">Post-Workshop evaluation &amp; Final Wrap-up</td>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;font-style:italic;">G. Githure; V. Bajić</td>
+</tr>
 </tbody>
 </table>
