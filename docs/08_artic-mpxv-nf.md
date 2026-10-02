@@ -44,6 +44,11 @@ The example analysis uses:
 
 ---
 
+Create a conda environment:
+```bash
+conda create -n nextflow nextflow=25.04 -y
+```
+
 ## Define the project directory
 
 First, define the location of the workshop project:
