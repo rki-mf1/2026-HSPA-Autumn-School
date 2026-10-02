@@ -18,7 +18,12 @@ Please follow this guide to set up your working environment.
 **Tip**: To paste into the terminal, press Ctrl + Shift + V (Linux) or Cmd + V (macOS).
 
 ## Wifi
-Please connect to the public Wifi (name: Public). The Wifi password will be communicated by your facilitators.
+Please connect to the Wifi. 
+
+* Wifi name week 1: ZIG4_Lab
+* Wifi name week 2: Public
+
+The Wifi password will be communicated by your facilitators.
 
 ## Workshop directory
 Open a terminal and create the workshop directory:
