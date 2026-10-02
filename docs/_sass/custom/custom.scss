@@ -77,22 +77,6 @@
   width: 100%;
 }
 
-// Header
-.main-content table thead th {
-  background-color: $namibia-sun-yellow;
-  color: $namibia-blue;
-  font-weight: 700;
-}
-
-// Alternating body rows
-.main-content table tbody tr:nth-child(odd) td {
-  background-color: $namibia-sun-light;
-}
-
-.main-content table tbody tr:nth-child(even) td {
-  background-color: $namibia-sun-medium;
-}
-
 // Increase workshop logo size
 $workshop-logo-height: 260px;
 
