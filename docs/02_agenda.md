@@ -1,8 +1,10 @@
 ---
 title: Agenda
 nav_order: 2
-permalink: /agenda/
+nav_exclude: false
+has_children: false
 has_toc: false
+permalink: /agenda/
 ---
 
 <div style="margin:0 0 1.5rem;padding:1.1rem 1.35rem;background:#0B70B8;color:#FFFFFF;">
@@ -13,11 +15,27 @@ has_toc: false
 </div>
 </div>
 
-## Week 1 | ONT Sequencing &amp; Bioinformatics
+## Contents
+
+- [Week 1 — ONT Sequencing & Bioinformatics](#week-1)
+  - [Day 1 — Monday, 05.10.2026](#agenda-day-1)
+  - [Day 2 — Tuesday, 06.10.2026](#agenda-day-2)
+  - [Day 3 — Wednesday, 07.10.2026](#agenda-day-3)
+  - [Day 4 — Thursday, 08.10.2026](#agenda-day-4)
+  - [Day 5 — Friday, 09.10.2026](#agenda-day-5)
+  - [Optional Excursion to Potsdam — Sunday, 11.10.2026](#optional-excursion)
+- [Week 2 — Bioinformatics](#week-2)
+  - [Day 6 — Monday, 12.10.2026](#agenda-day-6)
+  - [Day 7 — Tuesday, 13.10.2026](#agenda-day-7)
+  - [Day 8 — Wednesday, 14.10.2026](#agenda-day-8)
+  - [Day 9 — Thursday, 15.10.2026](#agenda-day-9)
+  - [Day 10 — Friday, 16.10.2026](#agenda-day-10)
+
+<h2 id="week-1">Week 1 | ONT Sequencing &amp; Bioinformatics</h2>
 
 ### Day 1 | Monday | 05.10.2026 | Nordufer - N04.A.03.028
 
-<table class="agenda-table" aria-label="Agenda table 1" style="width:100%;border-collapse:collapse;table-layout:fixed;margin:0 0 1.35rem;border:1px solid #202020;font-family:Georgia,'Times New Roman',serif;font-size:0.96rem;color:#203864;">
+<table class="agenda-table" id="agenda-day-1" aria-label="Day 1 agenda table" style="width:100%;border-collapse:collapse;table-layout:fixed;margin:0 0 1.35rem;border:1px solid #202020;font-family:Georgia,'Times New Roman',serif;font-size:0.96rem;color:#203864;">
 <colgroup>
 <col style="width:14.29%">
 <col style="width:28.57%">
@@ -94,7 +112,7 @@ has_toc: false
 
 ### Day 2 | Tuesday | 06.10.2026 | Nordufer - N04.A.03.028
 
-<table class="agenda-table" aria-label="Agenda table 2" style="width:100%;border-collapse:collapse;table-layout:fixed;margin:0 0 1.35rem;border:1px solid #202020;font-family:Georgia,'Times New Roman',serif;font-size:0.96rem;color:#203864;">
+<table class="agenda-table" id="agenda-day-2" aria-label="Day 2 agenda table" style="width:100%;border-collapse:collapse;table-layout:fixed;margin:0 0 1.35rem;border:1px solid #202020;font-family:Georgia,'Times New Roman',serif;font-size:0.96rem;color:#203864;">
 <colgroup>
 <col style="width:13.83%">
 <col style="width:26.64%">
@@ -139,7 +157,7 @@ has_toc: false
 
 ### Day 3 | Wednesday | 07.10.2026 | Nordufer - N04.A.03.028
 
-<table class="agenda-table" aria-label="Agenda table 3" style="width:100%;border-collapse:collapse;table-layout:fixed;margin:0 0 1.35rem;border:1px solid #202020;font-family:Georgia,'Times New Roman',serif;font-size:0.96rem;color:#203864;">
+<table class="agenda-table" id="agenda-day-3" aria-label="Day 3 agenda table" style="width:100%;border-collapse:collapse;table-layout:fixed;margin:0 0 1.35rem;border:1px solid #202020;font-family:Georgia,'Times New Roman',serif;font-size:0.96rem;color:#203864;">
 <colgroup>
 <col style="width:14.29%">
 <col style="width:28.57%">
@@ -190,7 +208,7 @@ has_toc: false
 
 ### Day 4 | Thursday | 08.10.2026 | Nordufer - N04.A.03.028
 
-<table class="agenda-table" aria-label="Agenda table 4" style="width:100%;border-collapse:collapse;table-layout:fixed;margin:0 0 1.35rem;border:1px solid #202020;font-family:Georgia,'Times New Roman',serif;font-size:0.96rem;color:#203864;">
+<table class="agenda-table" id="agenda-day-4" aria-label="Day 4 agenda table" style="width:100%;border-collapse:collapse;table-layout:fixed;margin:0 0 1.35rem;border:1px solid #202020;font-family:Georgia,'Times New Roman',serif;font-size:0.96rem;color:#203864;">
 <colgroup>
 <col style="width:14.29%">
 <col style="width:28.57%">
@@ -235,7 +253,7 @@ has_toc: false
 
 ### Day 5 | Friday | 09.10.2026 | Nordufer - N04.A.03.028 &amp; Seestr.
 
-<table class="agenda-table" aria-label="Agenda table 5" style="width:100%;border-collapse:collapse;table-layout:fixed;margin:0 0 1.35rem;border:1px solid #202020;font-family:Georgia,'Times New Roman',serif;font-size:0.96rem;color:#203864;">
+<table class="agenda-table" id="agenda-day-5" aria-label="Day 5 agenda table" style="width:100%;border-collapse:collapse;table-layout:fixed;margin:0 0 1.35rem;border:1px solid #202020;font-family:Georgia,'Times New Roman',serif;font-size:0.96rem;color:#203864;">
 <colgroup>
 <col style="width:14.29%">
 <col style="width:57.14%">
@@ -284,15 +302,15 @@ has_toc: false
 </tbody>
 </table>
 
-### Optional Excursion to Potsdam | Sunday | 11.10.2026 | Pick up from hotel at 12:00 | Organized by B. Arnold
+<h3 id="optional-excursion">Optional Excursion to Potsdam | Sunday | 11.10.2026 | Pick up from hotel at 12:00 | Organized by B. Arnold</h3>
 
-## Week 2 | Bioinformatics
+<h2 id="week-2">Week 2 | Bioinformatics</h2>
 
 ### Day 6 | Monday | 12.10.2026 | Gerichtstr. - G00.05.12
 
 **Topic:** Linux Intro
 
-<table class="agenda-table" aria-label="Agenda table 6" style="width:100%;border-collapse:collapse;table-layout:fixed;margin:0 0 1.35rem;border:1px solid #202020;font-family:Georgia,'Times New Roman',serif;font-size:0.96rem;color:#203864;">
+<table class="agenda-table" id="agenda-day-6" aria-label="Day 6 agenda table" style="width:100%;border-collapse:collapse;table-layout:fixed;margin:0 0 1.35rem;border:1px solid #202020;font-family:Georgia,'Times New Roman',serif;font-size:0.96rem;color:#203864;">
 <colgroup>
 <col style="width:14.29%">
 <col style="width:57.14%">
@@ -354,7 +372,7 @@ has_toc: false
 
 **Topic:** Data Organization and Software Management
 
-<table class="agenda-table" aria-label="Agenda table 7" style="width:100%;border-collapse:collapse;table-layout:fixed;margin:0 0 1.35rem;border:1px solid #202020;font-family:Georgia,'Times New Roman',serif;font-size:0.96rem;color:#203864;">
+<table class="agenda-table" id="agenda-day-7" aria-label="Day 7 agenda table" style="width:100%;border-collapse:collapse;table-layout:fixed;margin:0 0 1.35rem;border:1px solid #202020;font-family:Georgia,'Times New Roman',serif;font-size:0.96rem;color:#203864;">
 <colgroup>
 <col style="width:14.29%">
 <col style="width:57.14%">
@@ -416,7 +434,7 @@ has_toc: false
 
 **Topic:** ONT sequencing file formats and read QC
 
-<table class="agenda-table" aria-label="Agenda table 8" style="width:100%;border-collapse:collapse;table-layout:fixed;margin:0 0 1.35rem;border:1px solid #202020;font-family:Georgia,'Times New Roman',serif;font-size:0.96rem;color:#203864;">
+<table class="agenda-table" id="agenda-day-8" aria-label="Day 8 agenda table" style="width:100%;border-collapse:collapse;table-layout:fixed;margin:0 0 1.35rem;border:1px solid #202020;font-family:Georgia,'Times New Roman',serif;font-size:0.96rem;color:#203864;">
 <colgroup>
 <col style="width:14.29%">
 <col style="width:57.14%">
@@ -478,7 +496,7 @@ has_toc: false
 
 **Topic:** <a href="https://github.com/artic-network/artic-mpxv-nf">artic-mpxv-nf</a>
 
-<table class="agenda-table" aria-label="Agenda table 9" style="width:100%;border-collapse:collapse;table-layout:fixed;margin:0 0 1.35rem;border:1px solid #202020;font-family:Georgia,'Times New Roman',serif;font-size:0.96rem;color:#203864;">
+<table class="agenda-table" id="agenda-day-9" aria-label="Day 9 agenda table" style="width:100%;border-collapse:collapse;table-layout:fixed;margin:0 0 1.35rem;border:1px solid #202020;font-family:Georgia,'Times New Roman',serif;font-size:0.96rem;color:#203864;">
 <colgroup>
 <col style="width:14.29%">
 <col style="width:57.14%">
@@ -540,7 +558,7 @@ has_toc: false
 
 **Topic:** <a href="https://clades.nextstrain.org/">Nextclade</a>
 
-<table class="agenda-table" aria-label="Agenda table 10" style="width:100%;border-collapse:collapse;table-layout:fixed;margin:0 0 1.35rem;border:1px solid #202020;font-family:Georgia,'Times New Roman',serif;font-size:0.96rem;color:#203864;">
+<table class="agenda-table" id="agenda-day-10" aria-label="Day 10 agenda table" style="width:100%;border-collapse:collapse;table-layout:fixed;margin:0 0 1.35rem;border:1px solid #202020;font-family:Georgia,'Times New Roman',serif;font-size:0.96rem;color:#203864;">
 <colgroup>
 <col style="width:14.29%">
 <col style="width:57.14%">
