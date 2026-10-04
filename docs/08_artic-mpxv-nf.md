@@ -53,13 +53,13 @@ conda create -n nextflow nextflow=25.04 -y
 First, define the location of the workshop project:
 
 ```bash
-PROJECT_DIR="$HOME/scratch/2026-HSPA-Autumn-School"
+PROJECT_DIR="$HOME/2026-HSPA-Autumn-School"
 ```
 
 Using a variable makes the commands easier to read and avoids repeatedly typing the full project path.
 
 {: .note }
-Do not write the home-directory shortcut `~` inside quotes, for example: `PROJECT_DIR="~/scratch/2026-HSPA-Autumn-School"`
+Do not write the home-directory shortcut `~` inside quotes, for example: `PROJECT_DIR="~/2026-HSPA-Autumn-School"`
 In Bash, `~` is not expanded to your home directory when it is inside quotes. Using `$HOME` avoids this problem.
 
 Check the variable with:
@@ -83,7 +83,7 @@ conda activate nextflow
 Recent ONT FASTQ headers normally contain the basecalling model in the `basecall_model_version_id` field. You can inspect the header of the first read in one of the FASTQ files before running the workflow.
 
 ```bash
-zgrep -m 1 '^@' $PROJECT_DIR/data/yale_testrun1/fastq_pass/barcode08.excluding_human.fastq.gz | grep dna_
+zgrep -m 1 '^@' "$PROJECT_DIR/data/testrun_mpox_amplicon_minion_yale-mpox-2000/fastq_pass/barcode08.excluding_human.fastq.gz" | grep dna_
 ```
 
 For `artic-mpxv-nf`, the corresponding model name is:
