@@ -38,10 +38,10 @@ project_name/
 │   └── metadata/
 ├── envs/
 ├── scripts/
-├── results/
-│   ├── qc/
-│   ├── assembly/
-│   └── typing/
+├── analysis/
+│   ├── 01_qc/
+│   ├── 02_assembly/
+│   └── 03_typing/
 ├── logs/
 └── reports/
 ```
@@ -53,7 +53,7 @@ project_name/
 | `data/metadata/` | Sample information and data dictionaries       |
 | `envs/`          | Conda environment files and software records   |
 | `scripts/`       | Reusable commands, scripts, and workflow files |
-| `results/`       | Analysis outputs organised by analysis step    |
+| `analysis/`      | Analysis outputs organized by analysis step    |
 | `logs/`          | Program output, error messages, and run logs   |
 | `reports/`       | Figures, tables, summaries, and final reports  |
 
@@ -118,7 +118,7 @@ Use a separate Conda environment for each workflow or group of compatible tools.
 Export a reproducible environment description:
 
 ```bash
-conda env export --from-history > envs/environment.yml
+conda env export > envs/environment.yml
 ```
 
 Record tool versions when running an analysis:
@@ -139,7 +139,7 @@ Sequencing projects can quickly consume large amounts of disk space. Check stora
 
 ```bash
 du -sh .
-du -sh data/* results/*
+du -sh data/* analysis/*
 ```
 
 To reduce unnecessary storage use:
@@ -154,7 +154,9 @@ To reduce unnecessary storage use:
 Create a symbolic link to a shared file:
 
 ```bash
-ln -s /shared/data/NAM_001.fastq.gz data/raw/NAM_001.fastq.gz
+cd ~/2026-HSPA-Autumn-School
+ln -s ~/Documents/data/testrun_mpox_amplicon_minion_yale-mpox-2000/fastq_pass/barcode08.excluding_human.fastq.gz data/raw/barcode08.fastq.gz
+ll data/raw
 ```
 
 {: .warning }
@@ -169,8 +171,8 @@ Important data should exist in more than one location. Maintain an appropriate b
 Checksums can be used to confirm that files were copied or transferred correctly:
 
 ```bash
-sha256sum data/raw/NAM_001.fastq.gz > data/raw/NAM_001.fastq.gz.sha256
-sha256sum -c data/raw/NAM_001.fastq.gz.sha256
+sha256sum data/raw/barcode08.fastq.gz > data/raw/barcode08.fastq.gz.sha256
+sha256sum -c data/raw/barcode08.fastq.gz.sha256
 ```
 
 Sensitive sample or patient information must be stored and shared according to the applicable data-protection and institutional requirements.
