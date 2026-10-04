@@ -25,11 +25,11 @@ permalink: /agenda/
 >   - [Day 9 — Thursday, 15.10.2026](#agenda-day-9)
 >   - [Day 10 — Friday, 16.10.2026](#agenda-day-10)
 
-{: .note }
+{: .important }
 > RKI Locations:
-> - [Nordufer 20, 13353 Berlin | Room: N04.A.03.028](https://maps.app.goo.gl/sdJu5k6MZGS2eEtm9) (Week 1)
-> - [Seestraße 10, 13353 Berlin](https://maps.app.goo.gl/1HF6hZYk8U5kMmj1A) (Week 1 - Friday afternoon)
-> - [Gerichtstraße 27, 13347 Berlin | Room: G00.05.12](https://maps.app.goo.gl/NcL9J4Xpxn1a8qWq5) (Week 2)
+> - [Nordufer 20, 13353 Berlin](https://maps.app.goo.gl/sdJu5k6MZGS2eEtm9), **Room: N04.A.03.028** - Week 1
+> - [Seestraße 10, 13353 Berlin](https://maps.app.goo.gl/1HF6hZYk8U5kMmj1A) - Week 1, Friday afternoon
+> - [Gerichtstraße 27, 13347 Berlin](https://maps.app.goo.gl/NcL9J4Xpxn1a8qWq5), **Room: G00.05.12** - Week 2
 
 <hr>
 
