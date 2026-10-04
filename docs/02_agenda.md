@@ -38,10 +38,10 @@ permalink: /agenda/
 
 <table class="agenda-table" id="agenda-day-1" aria-label="Day 1 agenda table" style="width:100%;border-collapse:collapse;table-layout:fixed;margin:0 0 1.35rem;border:1px solid #202020;font-family:Georgia,'Times New Roman',serif;font-size:0.96rem;color:#203864;">
 <colgroup>
-<col style="width:14.29%">
-<col style="width:28.57%">
-<col style="width:28.57%">
-<col style="width:28.57%">
+<col style="width:25%">
+<col style="width:25%">
+<col style="width:25%">
+<col style="width:25%">
 </colgroup>
 <thead>
 <tr>
