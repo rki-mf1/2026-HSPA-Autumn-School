@@ -38,11 +38,47 @@ The analysis runs in your browser, so sequence data stay on your computer. Inter
 
 For larger or repeatable analyses, run the command-line version from the workshop project directory. Update the input directory if your `artic-mpxv-nf` results are stored elsewhere.
 
+### Create and activate Conda environment 
+
+```
+conda create -n nextclade -c bioconda nextclade
+conda activate nextclade
+```
+
+### Run Nextclade
+
 ```bash
+cd ~/2026-HSPA-Autumn-School
+
 nextclade run \
   --dataset-name "nextstrain/mpox/all-clades" \
   --output-all "analysis/03_nextclade" \
-  analysis/02_artic-mpxv-nf/testrun_mpox_amplicon_minion_yale-mpox-2000_cladeii/*.consensus.fasta
+  analysis/02_artic-mpxv-nf/barcode08/barcode08.consensus.fasta
 ```
 
-Nextclade downloads the dataset automatically. The main tabular result is `analysis/03_nextclade/nextclade.tsv`.
+Nextclade downloads the dataset automatically and writes the results to `analysis/03_nextclade/`.
+
+### Main output files
+
+| File                      | Description                                                                                                                            |
+| ------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
+| `nextclade.tsv`           | **Main results table.** Contains clade and lineage assignments, QC results, mutations, missing regions, and other sequence statistics. |
+| `nextclade.aligned.fasta` | Input sequence aligned to the reference genome.                                                                                        |
+| `nextclade.auspice.json`  | Phylogenetic tree containing the analyzed sequence, suitable for visualization with Auspice.                                           |
+| `nextclade.json`          | Detailed Nextclade results in JSON format, mainly useful for automated downstream analysis.                                            |
+
+{: .note }
+> For this tutorial, `nextclade.tsv` is the most important output file. Open it in a spreadsheet program or inspect it directly from the command line.
+
+---
+
+## 📌 Summary 
+
+In this tutorial, you used Nextclade to analyze an MPXV consensus genome and:
+- assigned the sequence to an MPXV clade and outbreak lineage;
+- assessed sequence quality and missing regions;
+- identified mutations relative to the reference genome;
+- viewed the sequence in its phylogenetic context;
+- optionally reproduced the analysis using Nextclade CLI.
+
+---
