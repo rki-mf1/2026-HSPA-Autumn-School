@@ -11,14 +11,15 @@ permalink: /agenda/
 # Agenda
 
 {: .content }
-> [Week 1 — ONT Sequencing & Bioinformatics](#week-1)
+> 
+> - [Week 1 — ONT Sequencing & Bioinformatics](#week-1)
 >   - [Day 1 — Monday, 05.10.2026](#agenda-day-1)
 >   - [Day 2 — Tuesday, 06.10.2026](#agenda-day-2)
 >   - [Day 3 — Wednesday, 07.10.2026](#agenda-day-3)
 >   - [Day 4 — Thursday, 08.10.2026](#agenda-day-4)
 >   - [Day 5 — Friday, 09.10.2026](#agenda-day-5)
 >   - [Optional Excursion to Potsdam — Sunday, 11.10.2026](#optional-excursion)
-> [Week 2 — Bioinformatics](#week-2)
+> - [Week 2 — Bioinformatics](#week-2)
 >   - [Day 6 — Monday, 12.10.2026](#agenda-day-6)
 >   - [Day 7 — Tuesday, 13.10.2026](#agenda-day-7)
 >   - [Day 8 — Wednesday, 14.10.2026](#agenda-day-8)
