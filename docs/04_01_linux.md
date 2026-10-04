@@ -101,17 +101,21 @@ In this example, `ls` lists files, `-l` requests a detailed listing, and `~` spe
 ---
 
 ## 1. Your first commands
+
 Make sure you are in the right directory:
+
 ```bash
 cd ~/2026-HSPA-Autumn-School
 ```
 
 List the contents of the current directory:
+
 ```bash
 ls
 ```
 
 Try a few common variants:
+
 ```bash
 ls ..
 ls -l 
@@ -128,6 +132,7 @@ ls -lt
 ---
 
 ## 2. Getting help
+
 Most commands provide built-in documentation.
 
 ```bash
@@ -135,6 +140,7 @@ man ls
 ```
 
 Or use the short help page:
+
 ```bash
 ls --help
 cp --help
@@ -150,6 +156,7 @@ mkdir --help
 ---
 
 ## 3. Useful terminal habits
+
 Try these **shortcuts**:
 - Press the `↑` **Up Arrow** to reuse previous commands.
 - Type `cle` and press **Tab** to autocomplete `clear`.
@@ -162,54 +169,29 @@ Linux is **case-sensitive**:
 ---
 
 ## 4. Moving around the filesystem
+
 Start in the project directory:
+
 ```bash
 cd ~/2026-HSPA-Autumn-School
 ```
 
 Now try the following:
+
 ```bash
 cd data
-```
-
-Print current working directory:
-```bash
 pwd
-```
 
-```bash
 cd ..
-```
-
-Print current working directory:
-```bash
 pwd
-```
 
-```bash
 cd ~
-```bash
-
-Print current working directory:
-```bash
 pwd
-```
 
-```bash
 cd ~/2026-HSPA-Autumn-School/data
-```
-
-Print current working directory:
-```bash
 pwd
-```
 
-``` bash
 cd -
-```
-
-Print current working directory:
-```bash
 pwd
 ```
 
@@ -222,6 +204,7 @@ pwd
 ---
 
 ## 5. Absolute and relative paths
+
 An **absolute path** starts from the filesystem root `/`.
 Example: `/home/$USER/2026-HSPA-Autumn-School/data`
 
@@ -254,6 +237,7 @@ cd ./data
 ---
 
 ## 6. Create files and directories
+
 {: .tip}
 > **Naming files and directories in the Linux command line**
 > 
@@ -266,11 +250,13 @@ cd ./data
 > - Linux is case-sensitive, so `my_first_file.txt`, `My_First_File.txt`, and `my_FIRST_file.txt` are three different files.
 
 Return to your scratch directory:
+
 ```bash
 cd ~/2026-HSPA-Autumn-School/scratch
 ```
 
 Create a few files and directories:
+
 ```bash
 touch notes.txt
 touch copy_me.txt
@@ -456,41 +442,6 @@ less notes.txt
 {: .discussion}
 > - When is `less` better than `cat`?
 > - Which commands are more useful for large files?
-
-
----
-
-## 11. Mini challenge
-In `scratch` directory you created earlier, do the following:
-
-1. create a directory called `project_demo`and move into it
-2. create a file called `readme.txt` inside it
-3. write one line into that file (e.g. "I love whales")
-4. copy `readme.txt` file and name it `readme_copy.txt`
-5. rename `readme_copy.txt` to `readme_backup.txt`
-6. show the first lines of the original `readme.txt` file
-
-One possible solution:
-
-```bash
-# 1.
-cd ~/2026-HSPA-Autumn-School/scratch
-mkdir project_demo
-cd project_demo
-
-# 2. and 3.
-echo "I love whales" > readme.txt
-
-# 4.
-cp readme.txt readme_copy.txt
-
-# 5.
-mv readme_copy.txt readme_backup.txt
-
-# 6.
-head readme.txt
-```
-
 
 ---
 
