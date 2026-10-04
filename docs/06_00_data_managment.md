@@ -30,7 +30,8 @@ Create one main directory for each project and use the same structure whenever p
 
 Here is an idea for one way to organize it:
 
-<pre class="directory-tree"><code>project_name/
+```bash
+project_name/
 ├── README.md
 ├── data/
 │   ├── raw/
@@ -42,8 +43,8 @@ Here is an idea for one way to organize it:
 │   ├── assembly/
 │   └── typing/
 ├── logs/
-└── reports/</code></pre>
-
+└── reports/
+```
 
 
 | Directory        | Contents                                       |
@@ -57,9 +58,9 @@ Here is an idea for one way to organize it:
 | `reports/`       | Figures, tables, summaries, and final reports  |
 
 {: .important }
-> Keep the original raw data **unchanged**. Perform analyses on linked or clearly identified working files rather than editing the original FASTQ files.
-
-Use a short `README.md` to document the project purpose, dataset, directory structure, analysis steps, and responsible people.
+> Keep the original raw data **unchanged**.
+> Perform analyses on linked or clearly identified working files rather than editing the original FASTQ files.
+> Use a short `README.md` to document the project purpose, dataset, directory structure, analysis steps, and responsible people.
 
 ---
 
