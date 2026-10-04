@@ -122,8 +122,8 @@ ls -lt
 {: .discussion}
 > - What is the difference between `ls`, `ls -l`, and `ls -lh`?
 > - What does `ls ..` show?
-> - What are command, option(s) and argument in each variant?
-> - > - Which option sorts by modification time, newest first?
+> - What is command, option(s) and argument(s) in each variant?
+> - Which option sorts by modification time, newest first?
 
 ---
 

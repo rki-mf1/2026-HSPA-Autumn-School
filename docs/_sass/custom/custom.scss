@@ -108,3 +108,23 @@ $workshop-logo-height: 260px;
     height: $workshop-logo-height;
   }
 }
+
+// Define spacing between the main content and the heading
+.main-content .title-gap {
+  margin-bottom: 1.25rem;
+}
+
+.main-content h1 {
+  margin-top: 2rem;
+  margin-bottom: 1.25rem;
+}
+
+.main-content h2 {
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+}
+
+.main-content h3 {
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
