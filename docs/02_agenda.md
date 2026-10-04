@@ -115,10 +115,10 @@ permalink: /agenda/
 
 <table class="agenda-table" id="agenda-day-2" aria-label="Day 2 agenda table" style="width:100%;border-collapse:collapse;table-layout:fixed;margin:0 0 1.35rem;border:1px solid #202020;font-family:Georgia,'Times New Roman',serif;font-size:0.96rem;color:#203864;">
 <colgroup>
-<col style="width:13.83%">
-<col style="width:26.64%">
-<col style="width:26.64%">
-<col style="width:32.90%">
+<col style="width:25%">
+<col style="width:25%">
+<col style="width:25%">
+<col style="width:25%">
 </colgroup>
 <thead>
 <tr>
@@ -160,10 +160,10 @@ permalink: /agenda/
 
 <table class="agenda-table" id="agenda-day-3" aria-label="Day 3 agenda table" style="width:100%;border-collapse:collapse;table-layout:fixed;margin:0 0 1.35rem;border:1px solid #202020;font-family:Georgia,'Times New Roman',serif;font-size:0.96rem;color:#203864;">
 <colgroup>
-<col style="width:13.83%">
-<col style="width:26.64%">
-<col style="width:26.64%">
-<col style="width:32.90%">
+<col style="width:25%">
+<col style="width:25%">
+<col style="width:25%">
+<col style="width:25%">
 </colgroup>
 <thead>
 <tr>
@@ -225,10 +225,10 @@ permalink: /agenda/
 
 <table class="agenda-table" id="agenda-day-4" aria-label="Day 4 agenda table" style="width:100%;border-collapse:collapse;table-layout:fixed;margin:0 0 1.35rem;border:1px solid #202020;font-family:Georgia,'Times New Roman',serif;font-size:0.96rem;color:#203864;">
 <colgroup>
-<col style="width:14.29%">
-<col style="width:28.57%">
-<col style="width:28.57%">
-<col style="width:28.57%">
+<col style="width:25%">
+<col style="width:25%">
+<col style="width:25%">
+<col style="width:25%">
 </colgroup>
 <thead>
 <tr>
@@ -270,9 +270,9 @@ permalink: /agenda/
 
 <table class="agenda-table" id="agenda-day-5" aria-label="Day 5 agenda table" style="width:100%;border-collapse:collapse;table-layout:fixed;margin:0 0 1.35rem;border:1px solid #202020;font-family:Georgia,'Times New Roman',serif;font-size:0.96rem;color:#203864;">
 <colgroup>
-<col style="width:14.29%">
-<col style="width:57.14%">
-<col style="width:28.57%">
+<col style="width:25%">
+<col style="width:50%">
+<col style="width:25%">
 </colgroup>
 <thead>
 <tr>
@@ -329,9 +329,9 @@ permalink: /agenda/
 
 <table class="agenda-table" id="agenda-day-6" aria-label="Day 6 agenda table" style="width:100%;border-collapse:collapse;table-layout:fixed;margin:0 0 1.35rem;border:1px solid #202020;font-family:Georgia,'Times New Roman',serif;font-size:0.96rem;color:#203864;">
 <colgroup>
-<col style="width:14.29%">
-<col style="width:57.14%">
-<col style="width:28.57%">
+<col style="width:25%">
+<col style="width:50%">
+<col style="width:25%">
 </colgroup>
 <thead>
 <tr>
@@ -391,9 +391,9 @@ permalink: /agenda/
 
 <table class="agenda-table" id="agenda-day-7" aria-label="Day 7 agenda table" style="width:100%;border-collapse:collapse;table-layout:fixed;margin:0 0 1.35rem;border:1px solid #202020;font-family:Georgia,'Times New Roman',serif;font-size:0.96rem;color:#203864;">
 <colgroup>
-<col style="width:14.29%">
-<col style="width:57.14%">
-<col style="width:28.57%">
+<col style="width:25%">
+<col style="width:50%">
+<col style="width:25%">
 </colgroup>
 <thead>
 <tr>
@@ -453,9 +453,9 @@ permalink: /agenda/
 
 <table class="agenda-table" id="agenda-day-8" aria-label="Day 8 agenda table" style="width:100%;border-collapse:collapse;table-layout:fixed;margin:0 0 1.35rem;border:1px solid #202020;font-family:Georgia,'Times New Roman',serif;font-size:0.96rem;color:#203864;">
 <colgroup>
-<col style="width:14.29%">
-<col style="width:57.14%">
-<col style="width:28.57%">
+<col style="width:25%">
+<col style="width:50%">
+<col style="width:25%">
 </colgroup>
 <thead>
 <tr>
@@ -515,9 +515,9 @@ permalink: /agenda/
 
 <table class="agenda-table" id="agenda-day-9" aria-label="Day 9 agenda table" style="width:100%;border-collapse:collapse;table-layout:fixed;margin:0 0 1.35rem;border:1px solid #202020;font-family:Georgia,'Times New Roman',serif;font-size:0.96rem;color:#203864;">
 <colgroup>
-<col style="width:14.29%">
-<col style="width:57.14%">
-<col style="width:28.57%">
+<col style="width:25%">
+<col style="width:50%">
+<col style="width:25%">
 </colgroup>
 <thead>
 <tr>
@@ -577,9 +577,9 @@ permalink: /agenda/
 
 <table class="agenda-table" id="agenda-day-10" aria-label="Day 10 agenda table" style="width:100%;border-collapse:collapse;table-layout:fixed;margin:0 0 1.35rem;border:1px solid #202020;font-family:Georgia,'Times New Roman',serif;font-size:0.96rem;color:#203864;">
 <colgroup>
-<col style="width:14.29%">
-<col style="width:57.14%">
-<col style="width:28.57%">
+<col style="width:25%">
+<col style="width:50%">
+<col style="width:25%">
 </colgroup>
 <thead>
 <tr>
