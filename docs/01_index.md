@@ -9,6 +9,8 @@ permalink: /
 
 ![HSPA cover page](/assets/images/HSPA_cover_page.png)
 
+---
+
 # HSPA Autumn School 2026 
 
 ## Mpox ONT Sequencing and Bioinformatics

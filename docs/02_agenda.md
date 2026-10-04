@@ -7,30 +7,29 @@ has_toc: false
 permalink: /agenda/
 ---
 
-<div style="margin:0 0 1.5rem;padding:1.1rem 1.35rem;background:#0B70B8;color:#FFFFFF;">
-<div style="padding:1.15rem 1.25rem;background:#5B9BD5;">
-<p style="margin:0 0 0.35rem;font-size:1.15rem;font-weight:700;">AGENDA | HSPA Autumn School</p>
-<p style="margin:0 0 0.45rem;font-size:1.65rem;font-weight:700;">Mpox ONT Sequencing and Bioinformatics</p>
-<p style="margin:0;">5–16 October 2026<br>Robert Koch Institute, Berlin</p>
-</div>
-</div>
 
-<hr>
+# Agenda
 
 {: .content }
-> - [Week 1 — ONT Sequencing & Bioinformatics](#week-1)
+> [Week 1 — ONT Sequencing & Bioinformatics](#week-1)
 >   - [Day 1 — Monday, 05.10.2026](#agenda-day-1)
 >   - [Day 2 — Tuesday, 06.10.2026](#agenda-day-2)
 >   - [Day 3 — Wednesday, 07.10.2026](#agenda-day-3)
 >   - [Day 4 — Thursday, 08.10.2026](#agenda-day-4)
 >   - [Day 5 — Friday, 09.10.2026](#agenda-day-5)
 >   - [Optional Excursion to Potsdam — Sunday, 11.10.2026](#optional-excursion)
->  - [Week 2 — Bioinformatics](#week-2)
+> [Week 2 — Bioinformatics](#week-2)
 >   - [Day 6 — Monday, 12.10.2026](#agenda-day-6)
 >   - [Day 7 — Tuesday, 13.10.2026](#agenda-day-7)
 >   - [Day 8 — Wednesday, 14.10.2026](#agenda-day-8)
 >   - [Day 9 — Thursday, 15.10.2026](#agenda-day-9)
 >   - [Day 10 — Friday, 16.10.2026](#agenda-day-10)
+
+{: .note }
+> RKI Locations:
+> - [Nordufer 20, 13353 Berlin | Room: N04.A.03.028](https://maps.app.goo.gl/sdJu5k6MZGS2eEtm9) (Week 1)
+> - [Seestraße 10, 13353 Berlin](https://maps.app.goo.gl/1HF6hZYk8U5kMmj1A) (Week 1 - Friday afternoon)
+> - [Gerichtstraße 27, 13347 Berlin | Room: G00.05.12](https://maps.app.goo.gl/NcL9J4Xpxn1a8qWq5) (Week 2)
 
 <hr>
 
@@ -103,7 +102,7 @@ permalink: /agenda/
 <td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;">15:45 - 16:45</td>
 <td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#DEEAF6;"><strong>Group A</strong> 🧪<br>PCR Setup</td>
 <td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#FBE4D5;"><strong>Group B</strong> 💻<br>Computer Setup</td>
-<td rowspan="2" style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;font-style:italic;">Wet-Lab:<br>G. Githure; T. Pilz<br>Bioinformatics:<br>V. Bajić; F. Kistner</td>
+<td rowspan="2" style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;font-style:italic;">Wet-Lab:<br>G. Githure; T. Pilz<br><br>Bioinformatics:<br>V. Bajić; F. Kistner</td>
 </tr>
 <tr>
 <td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;">17:00 - 18:00</td>
@@ -138,7 +137,7 @@ permalink: /agenda/
 <td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;">09:30 - 12:00</td>
 <td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#DEEAF6;"><strong>Group A</strong> 🧪<br>PCR Clean Up &amp; QC</td>
 <td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#FBE4D5;"><strong>Group B</strong> 💻<br>Linux Intro</td>
-<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;font-style:italic;">Wet-Lab:                    <br>G. Githure; T. Pilz<br>Bioinformatics:         <br>V. Bajić; F. Kistner; A. Conradie</td>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;font-style:italic;">Wet-Lab:                    <br>G. Githure; T. Pilz<br><br>Bioinformatics:         <br>V. Bajić; F. Kistner; A. Conradie</td>
 </tr>
 <tr>
 <td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#F9F1F9;">12:00 - 13:00</td>
@@ -153,60 +152,88 @@ permalink: /agenda/
 <td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;">14:00 - 16:30</td>
 <td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#DEEAF6;"><strong>Group A</strong> 💻<br>Linux Intro</td>
 <td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#FBE4D5;"><strong>Group B</strong> 🧪<br>PCR Clean Up &amp; QC</td>
-<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;font-style:italic;">Wet-Lab:<br>G. Githure: T. Pilz<br>Bioinformatics:<br>V. Bajić; F. Kistner; A. Conradie</td>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;font-style:italic;">Wet-Lab:<br>G. Githure: T. Pilz<br><br>Bioinformatics:<br>V. Bajić; F. Kistner; A. Conradie</td>
 </tr>
 </tbody>
 </table>
 
 ### Day 3 | Wednesday | 07.10.2026 | Nordufer - N04.A.03.028
 
-<table class="agenda-table" id="agenda-day-3" aria-label="Day 3 agenda table" style="width:100%;border-collapse:collapse;table-layout:fixed;margin:0 0 1.35rem;border:1px solid #202020;font-family:Georgia,'Times New Roman',serif;font-size:0.96rem;color:#203864;">
-<colgroup>
-<col style="width:14.29%">
-<col style="width:28.57%">
-<col style="width:28.57%">
-<col style="width:28.57%">
-</colgroup>
-<thead>
-<tr>
-<th scope="col" style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#5B9BD5;color:#FFFFFF;font-weight:700;text-align:left;"><strong>Time</strong></th>
-<th scope="col" style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#5B9BD5;color:#FFFFFF;font-weight:700;text-align:left;"><strong>Program</strong></th>
-<th scope="col" style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#5B9BD5;color:#FFFFFF;font-weight:700;text-align:left;"><strong>Facilitators</strong></th>
-<th scope="col" style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#5B9BD5;color:#FFFFFF;font-weight:700;text-align:left;"><strong>Date</strong></th>
-</tr>
-</thead><tbody>
-<tr>
-<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;">09:00 - 09:15</td>
-<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;">Daily Briefing</td>
-<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;">&nbsp;</td>
-<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;font-style:italic;">G. Githure; B. Arnold</td>
-</tr>
-<tr>
-<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;">09:15 - 12:00</td>
-<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#DEEAF6;"><strong>Group A</strong> 🧪<br>Library Prep Part I</td>
-<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#FBE4D5;"><strong>Group B</strong> 💻<br>Linux Intro</td>
-<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;font-style:italic;">Wet-Lab:<br>G. Githure: T. Pilz<br>Bioinformatics: <br>V. Bajić; F. Kistner</td>
-</tr>
-<tr>
-<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#F9F1F9;">12:00 - 13:00</td>
-<td colspan="3" style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#F9F1F9;">🍽️<strong> Lunch Break</strong></td>
-</tr>
-<tr>
-<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#E2EFD9;">13:00 - 14:00</td>
-<td colspan="2" style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#E2EFD9;">Participants presentations (3x)</td>
-<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#E2EFD9;font-style:italic;">G. Githure; V. Bajić</td>
-</tr>
-<tr>
-<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;">14:00 - 18:00</td>
-<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#DEEAF6;"><strong>Group A</strong> 🧪<br>Library prep part II &amp; Sequencing Set up</td>
-<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#FBE4D5;"><strong>Group B</strong> 💻<br>Linux Intro</td>
-<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;font-style:italic;">Wet-Lab: <br>G. Githure: T. Pilz<br>Bioinformatics:<br>V. Bajić; F. Kistner</td>
-</tr>
-<tr>
-<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#F9F1F9;">19:00 - 22:00</td>
-<td colspan="3" style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#F9F1F9;">🍽️<strong> Dinner</strong></td>
-</tr>
-</tbody>
+<table class="agenda-table" id="agenda-day-3" aria-label="Day 3 agenda table"
+  style="width:100%;border-collapse:collapse;table-layout:fixed;margin:0 0 1.35rem;border:1px solid #202020;font-family:Georgia,'Times New Roman',serif;font-size:0.96rem;color:#203864;">
+  <colgroup>
+    <col style="width:13.83%">
+    <col style="width:26.64%">
+    <col style="width:26.64%">
+    <col style="width:32.90%">
+  </colgroup>
+  <thead>
+    <tr>
+      <th scope="col" style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#5B9BD5;color:#FFFFFF;font-weight:700;text-align:left;">
+        <strong>Time</strong>
+      </th>
+      <th colspan="2" scope="colgroup" style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#5B9BD5;color:#FFFFFF;font-weight:700;text-align:left;">
+        <strong>Program</strong>
+      </th>
+      <th scope="col" style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#5B9BD5;color:#FFFFFF;font-weight:700;text-align:left;">
+        <strong>Facilitators</strong>
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;">09:00 - 09:15</td>
+      <td colspan="2" style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;">Daily Briefing</td>
+      <td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;font-style:italic;">G. Githure; B. Arnold</td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;">09:15 - 12:00</td>
+      <td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#DEEAF6;">
+        <strong>Group A</strong> 🧪<br>Library Prep Part I
+      </td>
+      <td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#FBE4D5;">
+        <strong>Group B</strong> 💻<br>Linux Intro
+      </td>
+      <td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;font-style:italic;">
+        Wet-Lab:<br>G. Githure: T. Pilz<br><br>
+        Bioinformatics:<br>V. Bajić; F. Kistner
+      </td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#F9F1F9;">12:00 - 13:00</td>
+      <td colspan="3" style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#F9F1F9;">
+        🍽️ <strong>Lunch Break</strong>
+      </td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#E2EFD9;">13:00 - 14:00</td>
+      <td colspan="2" style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#E2EFD9;">
+        Participants presentations (3x)
+      </td>
+      <td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#E2EFD9;font-style:italic;">
+        G. Githure; V. Bajić
+      </td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;">14:00 - 18:00</td>
+      <td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#DEEAF6;">
+        <strong>Group A</strong> 🧪<br>Library prep part II &amp; Sequencing Set up
+      </td>
+      <td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#FBE4D5;">
+        <strong>Group B</strong> 💻<br>Linux Intro
+      </td>
+      <td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;font-style:italic;">
+        Wet-Lab:<br>G. Githure: T. Pilz<br><br>
+        Bioinformatics:<br>V. Bajić; F. Kistner
+      </td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#F9F1F9;">19:00 - 22:00</td>
+      <td colspan="3" style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#F9F1F9;">
+        🍽️ <strong>Dinner</strong>
+      </td>
+    </tr>
+  </tbody>
 </table>
 
 ### Day 4 | Thursday | 08.10.2026 | Nordufer - N04.A.03.028
@@ -234,7 +261,7 @@ permalink: /agenda/
 <td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;">09:30 - 12:00</td>
 <td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#DEEAF6;"><strong>Group A</strong> 💻<br>Linux Intro</td>
 <td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#FBE4D5;"><strong>Group B</strong> 🧪<br>Library Prep Part I</td>
-<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;font-style:italic;">Wet-Lab: <br>G. Githure: T. Pilz<br>Bioinformatics:<br>V. Bajić; F. Kistner; A. Conradie</td>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;font-style:italic;">Wet-Lab: <br>G. Githure: T. Pilz<br><br>Bioinformatics:<br>V. Bajić; F. Kistner; A. Conradie</td>
 </tr>
 <tr>
 <td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#F9F1F9;">12:00 - 13:00</td>
@@ -249,7 +276,7 @@ permalink: /agenda/
 <td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;">14:00 - 18:00</td>
 <td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#DEEAF6;"><strong>Group A</strong> 💻<br>Linux Intro</td>
 <td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#FBE4D5;"><strong>Group B</strong> 🧪<br>Library prep part II &amp; Sequencing Set up</td>
-<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;font-style:italic;">Wet-Lab: <br>G. Githure: T. Pilz<br>Bioinformatics: <br>V. Bajić; F. Kistner; A. Conradie</td>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;font-style:italic;">Wet-Lab: <br>G. Githure: T. Pilz<br><br>Bioinformatics: <br>V. Bajić; F. Kistner; A. Conradie</td>
 </tr>
 </tbody>
 </table>

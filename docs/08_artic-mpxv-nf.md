@@ -170,21 +170,20 @@ The most important files for the next steps are:
 
 ---
 
-## 💡 Questions
-
-1. Why is it useful to specify a fixed workflow version with `-r`?
-2. What is the difference between `--out_dir` and `--store_dir`?
-3. Where can you find information about the basecalling model in an ONT FASTQ file?
-4. How would you translate `dna_r10.4.1_e8.2_400bps_hac@v5.2.0` into the `--override_model` value used in this tutorial?
-5. Why must `--override_model` match the model used to basecall the reads?
-6. What could happen if the wrong primer scheme or reference clade were selected?
-7. Why might one amplicon have substantially lower depth than neighboring amplicons?
-8. Which output file contains the reconstructed genome sequence?
-9. Which output would you inspect to identify potential amplicon dropouts?
+{: .question }
+> 1. Why is it useful to specify a fixed workflow version with `-r`?
+> 2. What is the difference between `--out_dir` and `--store_dir`?
+> 3. Where can you find information about the basecalling model in an ONT FASTQ file?
+> 4. How would you translate `dna_r10.4.1_e8.2_400bps_hac@v5.2.0` into the `--override_model` value used in this tutorial?
+> 5. Why must `--override_model` match the model used to basecall the reads?
+> 6. What could happen if the wrong primer scheme or reference clade were selected?
+> 7. Why might one amplicon have substantially lower depth than neighboring amplicons?
+> 8. Which output file contains the reconstructed genome sequence?
+> 9. Which output would you inspect to identify potential amplicon dropouts?
 
 ---
 
-## Summary
+## 📌 Summary
 
 In this tutorial, you:
 
