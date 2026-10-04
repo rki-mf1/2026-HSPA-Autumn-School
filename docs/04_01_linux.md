@@ -10,16 +10,15 @@ permalink: /linux_navigation/
 
 ---
 
-## 🎯 Learning objectives
-
-By the end of this lesson, you should be able to:
-
-- open and use the terminal comfortably
-- understand the current working directory
-- move through the filesystem with `cd`
-- understand `~`, `.`, `..`, absolute paths, and relative paths
-- create, edit, copy, move, rename, and remove files and directories
-- read built-in command documentation with `man` and `--help`
+{: .objectives }
+> By the end of this lesson, you should be able to:
+>
+> - open and use the terminal comfortably
+> - understand the current working directory
+> - move through the filesystem with `cd`
+> - understand `~`, `.`, `..`, absolute paths, and relative paths
+> - create, edit, copy, move, rename, and remove files and directories
+> - read built-in command documentation with `man` and `--help`
 
 ---
 

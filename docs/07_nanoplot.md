@@ -9,14 +9,13 @@ permalink: /nanoplot/
 
 # Quality control of ONT reads with `NanoPlot`
 
-## 🎯 Learning goals
-
-By the end of this practical, you should be able to:
-
-- run `NanoPlot` on Oxford Nanopore FASTQ files
-- inspect read length and read quality distributions
-- interpret basic ONT read quality statistics
-- decide whether the reads are suitable for downstream analysis
+{: .objectives }
+> By the end of this practical, you should be able to:
+>
+> - run `NanoPlot` on Oxford Nanopore FASTQ files
+> - inspect read length and read quality distributions
+> - interpret basic ONT read quality statistics
+> - decide whether the reads are suitable for downstream analysis
 
 ---
 
@@ -151,18 +150,15 @@ Pay particular attention to:
 {: .note }
 The Yale mpox primer scheme produces amplicons of approximately **2 kb**. Therefore, many reads are expected to cluster around the approximate amplicon length. Very short reads may represent incomplete products, while unusually long reads may represent chimeric or concatenated molecules.
 
----
-
-## 💬 Discussion
-
-Use the NanoPlot report to answer:
-
-1. How many reads were generated for `barcode08`?
-2. What is the median read quality?
-3. What is the median read length?
-4. Is the read-length distribution consistent with approximately 2-kb amplicons?
-5. Are there many very short or unusually long reads?
-6. Based on the QC results, would you proceed with genome reconstruction?
+{: .discussion }
+> Use the NanoPlot report to answer:
+>
+> 1. How many reads were generated for `barcode08`?
+> 2. What is the median read quality?
+> 3. What is the median read length?
+> 4. Is the read-length distribution consistent with approximately 2-kb amplicons?
+> 5. Are there many very short or unusually long reads?
+> 6. Based on the QC results, would you proceed with genome reconstruction?
 
 ---
 

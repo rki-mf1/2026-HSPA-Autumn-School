@@ -15,17 +15,16 @@ The workflow implements the ARTIC field bioinformatics workflow for MPXV and use
 
 ---
 
-## 🎯 Learning objectives
-
-By the end of this tutorial, you will be able to:
-
-- Run `artic-mpxv-nf` on ONT mpox sequencing reads
-- Specify the appropriate mpox primer scheme and reference
-- Configure the workflow for execution on the local machine
-- Identify the ONT basecalling model from FASTQ headers
-- Specify the corresponding model with `--override_model`
-- Define separate directories for workflow results and downloaded workflow resources
-- Explain the purpose of the main Nextflow options and `artic-mpxv-nf` parameters used in the command
+{: .objectives }
+> By the end of this tutorial, you will be able to:
+> 
+> - Run `artic-mpxv-nf` on ONT mpox sequencing reads
+> - Specify the appropriate mpox primer scheme and reference
+> - Configure the workflow for execution on the local machine
+> - Identify the ONT basecalling model from FASTQ headers
+> - Specify the corresponding model with `--override_model`
+> - Define separate directories for workflow results and downloaded workflow resources
+> - Explain the purpose of the main Nextflow options and `artic-mpxv-nf` parameters used in the command
 
 ---
 

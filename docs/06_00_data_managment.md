@@ -7,25 +7,24 @@ has_toc: false
 permalink: /data_managment/
 ---
 
-# 🗂️ Data Management
+# Data Management
 
 Good project organisation makes bioinformatics analyses easier to understand, reproduce, share, and maintain. A clear structure is especially important when a project contains many samples, large sequencing files, several tools, and multiple analysis versions.
 
 ---
 
-## 🎯 Learning objectives
-
-By the end of this lesson, you should be able to:
-
-- organise a bioinformatics project using a consistent directory structure
-- use clear and machine-readable file names
-- separate raw data, scripts, intermediate files, and final results
-- record software environments, versions, commands, and parameters
-- reduce unnecessary storage use without losing important information
+{: .objectives }
+> By the end of this lesson, you should be able to:
+>
+> - organise a bioinformatics project using a consistent directory structure
+> - use clear and machine-readable file names
+> - separate raw data, scripts, intermediate files, and final results
+> - record software environments, versions, commands, and parameters
+> - reduce unnecessary storage use without losing important information
 
 ---
 
-## 📁 Organise each project consistently
+## Organise each project consistently
 
 Create one main directory for each project and use the same structure whenever possible. 
 
@@ -64,7 +63,7 @@ Use a short `README.md` to document the project purpose, dataset, directory stru
 
 ---
 
-## 🏷️ Name files clearly
+## Name files clearly
 
 File names should be informative, consistent, and easy to process with command-line tools.
 
@@ -100,7 +99,7 @@ assembly_latest.fasta
 
 ---
 
-## 🧾 Record software and analysis steps
+## Record software and analysis steps
 
 Bioinformatics results depend on software versions, databases, parameters, and input files. Record enough information to repeat the analysis later.
 
@@ -133,7 +132,7 @@ quast.py --version >> logs/software_versions.txt
 
 ---
 
-## 💾 Save storage space carefully
+## Save storage space carefully
 
 Sequencing projects can quickly consume large amounts of disk space. Check storage use regularly:
 
@@ -162,7 +161,7 @@ ln -s /shared/data/NAM_001.fastq.gz data/raw/NAM_001.fastq.gz
 
 ---
 
-## 🔐 Protect and verify your data
+## Protect and verify your data
 
 Important data should exist in more than one location. Maintain an appropriate backup of raw data, metadata, scripts, and final results.
 
@@ -177,7 +176,7 @@ Sensitive sample or patient information must be stored and shared according to t
 
 ---
 
-## ✅ Project checklist
+## Project checklist
 
 Before considering an analysis complete, confirm that:
 

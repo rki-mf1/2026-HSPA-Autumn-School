@@ -13,25 +13,24 @@ permalink: /linux/
 
 ---
 
-## 🎯 Learning objectives
-
-By the end of the Linux module, you should be able to:
-
-- use the terminal and understand your current working directory
-- navigate the filesystem using absolute and relative paths
-- interpret special path symbols such as `~`, `.`, and `..`
-- create, inspect, edit, copy, move, rename, and remove files and directories
-- find help for commands using man and --help
-- search text using `grep`
-- combine commands using pipes (`|`)
-- extract selected columns from tabular files
-- write and execute simple Bash scripts
+{: .objectives }
+> By the end of the Linux module, you should be able to:
+>
+> - use the terminal and understand your current working directory
+> - navigate the filesystem using absolute and relative paths
+> - interpret special path symbols such as `~`, `.`, and `..`
+> - create, inspect, edit, copy, move, rename, and remove files and directories
+> - find help for commands using man and --help
+> - search text using `grep`
+> - combine commands using pipes (`|`)
+> - extract selected columns from tabular files
+> - write and execute simple Bash scripts
 
 ---
 
 ![gui_vs_cli](https://www.fossmint.com/wp-content/uploads/2018/06/Linux-Cli-vs-Gui.png)
 
-## 💻 Why Command Line?
+## Why Command Line?
 
 Most people interact with computers through a **graphical user interface (GUI)** by clicking icons, opening menus, and moving files with a mouse.
 
@@ -39,7 +38,7 @@ GUIs are convenient for everyday tasks, but they are inefficient for large, repe
 
 ---
 
-## ⌨️ Command-line interface
+## Command-line interface
 
 A **command-line interface (CLI)** allows you to control the computer by entering text commands.
 
@@ -56,7 +55,7 @@ These features make the command line particularly important in bioinformatics, w
 
 ---
 
-## 🐚 The shell
+## The shell
 
 The program that interprets command-line instructions is called a **shell**. One of the most commonly used Unix shells is **Bash**.
 
@@ -70,7 +69,7 @@ Learning the command line is similar to learning a new language: commands are th
 
 ---
 
-## 🧬 Why it matters for bioinformatics
+## Why it matters for bioinformatics
 
 Many bioinformatics tools are designed primarily for the command line. Shell commands can be combined into reproducible workflows that process large numbers of sequencing files quickly and consistently.
 

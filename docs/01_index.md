@@ -51,20 +51,19 @@ Participants should ideally possess:
 
 ---
 
-## 🎯 Learning objectives
-
-Upon completion of the workshop, participants will be able to:
-
-- Explain the principles and applications of **Oxford Nanopore Technologies (ONT) sequencing** for mpox genomic surveillance
-- Perform the key steps of the mpox sequencing workflow, including **library preparation, sequencing run setup, and run monitoring**
-- Organize and manage sequencing data and associated metadata for downstream analyses
-- Apply basic **Linux command-line tools** for bioinformatics workflows
-- Conduct quality control and processing of ONT sequencing data
-- Generate and evaluate **consensus genome sequences**
-- Perform **lineage or clade assignment**
-- Conduct **phylogenetic analyses**
-- Interpret sequencing results in the context of **public health surveillance and outbreak investigations**
-- Apply the acquired laboratory and bioinformatics skills to support **mpox genomic surveillance activities** in their home institutions
+{: .objectives }
+> Upon completion of the workshop, participants will be able to:
+> 
+> - Explain the principles and applications of **Oxford Nanopore Technologies (ONT) sequencing** for mpox genomic surveillance
+> - Perform the key steps of the mpox sequencing workflow, including **library preparation, sequencing run setup, and run monitoring**
+> - Organize and manage sequencing data and associated metadata for downstream analyses
+> - Apply basic **Linux command-line tools** for bioinformatics workflows
+> - Conduct quality control and processing of ONT sequencing data
+> - Generate and evaluate **consensus genome sequences**
+> - Perform **lineage or clade assignment**
+> - Conduct **phylogenetic analyses**
+> - Interpret sequencing results in the context of **public health surveillance and outbreak investigations**
+> - Apply the acquired laboratory and bioinformatics skills to support **mpox genomic surveillance activities** in their home institutions
 
 ---
 

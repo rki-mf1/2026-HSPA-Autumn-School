@@ -8,14 +8,13 @@ permalink: /linux_files/
 
 # Viewing, Editing, Compressing, and Searching Files
 
-## 🎯 Learning objectives
-
-By the end of this lesson, you should be able to:
-
-- search text with `grep`
-- combine commands using pipes (`|`)
-- extract columns from tabular files
-- write and run Bash scripts
+{: .objectives }
+> By the end of this lesson, you should be able to:
+>
+> - search text with `grep`
+> - combine commands using pipes (`|`)
+> - extract columns from tabular files
+> - write and run Bash scripts
 
 --- 
 

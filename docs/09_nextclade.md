@@ -6,13 +6,15 @@ has_children: false
 has_toc: true
 permalink: /nextclade/
 ---
+
 # Mpox genome analysis with Nextclade
 
 {: .objectives }
-By the end of this tutorial, you will be able to:
-- Analyze MPXV consensus genomes with Nextclade Web using the `nextstrain/mpox/all-clades` dataset.
-- Interpret key Nextclade results, including clade, outbreak lineage, sequence quality, mutations, and missing data.
-- **Optional**: Run the same analysis with Nextclade CLI and locate the tabular results file.
+> By the end of this tutorial, you will be able to:
+>
+> - Analyze MPXV consensus genomes with Nextclade Web using the `nextstrain/mpox/all-clades` dataset.
+> - Interpret key Nextclade results, including clade, outbreak lineage, sequence quality, mutations, and missing data.
+> - **Optional**: Run the same analysis with Nextclade CLI and locate the tabular results file.
 
 ---
 

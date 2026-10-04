@@ -15,6 +15,8 @@ permalink: /agenda/
 </div>
 </div>
 
+<hr>
+
 ## Contents
 
 - [Week 1 — ONT Sequencing & Bioinformatics](#week-1)
@@ -30,6 +32,8 @@ permalink: /agenda/
   - [Day 8 — Wednesday, 14.10.2026](#agenda-day-8)
   - [Day 9 — Thursday, 15.10.2026](#agenda-day-9)
   - [Day 10 — Friday, 16.10.2026](#agenda-day-10)
+
+<hr>
 
 <h2 id="week-1">Week 1 | ONT Sequencing &amp; Bioinformatics</h2>
 
@@ -303,6 +307,8 @@ permalink: /agenda/
 </table>
 
 <h3 id="optional-excursion">Optional Excursion to Potsdam | Sunday | 11.10.2026 | Pick up from hotel at 12:00 | Organized by B. Arnold</h3>
+
+<hr>
 
 <h2 id="week-2">Week 2 | Bioinformatics</h2>
 
