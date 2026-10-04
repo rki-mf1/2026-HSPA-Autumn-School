@@ -9,12 +9,6 @@ permalink: /artic-mpxv-nf/
 
 # Mpox genome reconstruction with `artic-mpxv-nf`
 
-In this tutorial, you will use **`artic-mpxv-nf`** to reconstruct mpox virus genomes from Oxford Nanopore Technologies (ONT) amplicon sequencing reads.
-
-The workflow implements the ARTIC field bioinformatics workflow for MPXV and uses Nextflow to coordinate the individual analysis steps.
-
----
-
 {: .objectives }
 > By the end of this tutorial, you will be able to:
 > 
@@ -28,27 +22,24 @@ The workflow implements the ARTIC field bioinformatics workflow for MPXV and use
 
 ---
 
-## Before you start
+## Overview
 
-The workflow is run with **Nextflow**.
+In this tutorial, you will use **`artic-mpxv-nf`** to reconstruct mpox virus genomes from Oxford Nanopore Technologies (ONT) amplicon sequencing reads.
 
-The input for this tutorial is the `fastq_pass` directory generated during basecalling. It contains the ONT FASTQ reads that passed the basecaller quality threshold.
+The workflow implements the ARTIC field bioinformatics workflow for MPXV and uses **Nextflow** to coordinate the individual analysis steps.
+
+The input for this tutorial is the `data/raw/` in which we copied ONT FASTQ files from the downloaded `testrun_mpox_amplicon_minion_yale-mpox-2000/fastq_pass` directory generated during basecalling.
 
 The example analysis uses:
 
-- dataset: `testrun_mpox_amplicon_minion_yale-mpox-2000`
+- dataset: `testrun_mpox_amplicon_minion_yale-mpox-2000` (which we previously copied in `data/raw/`)
 - primer scheme: `yale-mpox/2000/v1.0.0-cladeii`
 - MPXV clade: `cladeii`
 - ONT basecalling model: Dorado v5.2.0 HAC, corresponding to `r1041_e82_400bps_hac_v520`
 
 ---
 
-Create a conda environment:
-```bash
-conda create -n nextflow nextflow=25.04 -y
-```
-
-## Define the project directory
+## 1. Define the project directory
 
 First, define the location of the workshop project:
 
@@ -68,22 +59,16 @@ Check the variable with:
 echo "$PROJECT_DIR"
 ```
 
-Activate the Nextflow Conda environment:
-
-```bash
-conda activate nextflow
-```
-
 ---
 
-## Identify the basecalling model
+## 2. Identify the basecalling model
 
 `artic-mpxv-nf` needs to know which ONT basecalling model was used to generate the reads. The model is used by the ARTIC workflow when selecting the appropriate variant-calling model.
 
 Recent ONT FASTQ headers normally contain the basecalling model in the `basecall_model_version_id` field. You can inspect the header of the first read in one of the FASTQ files before running the workflow.
 
 ```bash
-zgrep -m 1 '^@' "$PROJECT_DIR/data/testrun_mpox_amplicon_minion_yale-mpox-2000/fastq_pass/barcode08.excluding_human.fastq.gz" | grep dna_
+zgrep -m 1 '^@' "$PROJECT_DIR/data/raw/barcode08.excluding_human.fastq.gz" | grep dna_
 ```
 
 For `artic-mpxv-nf`, the corresponding model name is:
@@ -106,7 +91,22 @@ Do not simply copy the model from this tutorial when analysing your own sequenci
 
 ---
 
-## Run `artic-mpxv-nf`
+## 3. Create and activate Conda environment 
+
+Create a conda environment:
+```bash
+conda create -n nextflow nextflow=25.04 -y
+```
+
+Activate the Nextflow Conda environment:
+
+```bash
+conda activate nextflow
+```
+
+---
+
+## 4. Run `artic-mpxv-nf`
 
 Run the workflow with:
 
@@ -114,10 +114,10 @@ Run the workflow with:
 nextflow run artic-network/artic-mpxv-nf \
     -r 2.1.0 \
     -process.executor local \
-    --fastq "$PROJECT_DIR/data/testrun_mpox_amplicon_minion_yale-mpox-2000/fastq_pass" \
+    --fastq "$PROJECT_DIR/data/raw/barcode08.excluding_human.fastq.gz" \
     --scheme_version "yale-mpox/2000/v1.0.0-cladeii" \
-    --out_dir "$PROJECT_DIR/analysis/02_artic-mpxv-nf/testrun_mpox_amplicon_minion_yale-mpox-2000_cladeii" \
-    --store_dir "$PROJECT_DIR/analysis/02_artic-mpxv-nf/store_dir_cladeii_testrun_mpox_amplicon_minion_yale-mpox-2000" \
+    --out_dir "$PROJECT_DIR/analysis/02_artic-mpxv-nf/barcode08" \
+    --store_dir "$PROJECT_DIR/analysis/02_artic-mpxv-nf/store_dir_barcode08" \
     --override_model r1041_e82_400bps_hac_v520 \
     --validate_params false \
     --clade cladeii
@@ -141,7 +141,7 @@ The backslash (`\`) at the end of each line tells Bash that the command continue
 
 ---
 
-## Check the output directory
+## 5. Check the output directory
 
 After the workflow completes, inspect the output directory:
 
@@ -183,6 +183,18 @@ The most important files for the next steps are:
 
 ---
 
+## 6. Run `artic-mpxv-nf` on your own sequencing data
+
+Adapt the commands above and run `artic-mpxv-nf` on the FASTQ files in the `fastq_pass` directory of your barcode you generated during the previous week of the HSPA Autumn School.
+
+---
+
+## 7. Continue with Nextclade
+
+Use reconstructed consensus genomes for the following Nextclade tutorial.
+
+---
+
 ## 📌 Summary
 
 In this tutorial, you:
@@ -195,4 +207,6 @@ In this tutorial, you:
 - learned how the major Nextflow options and pipeline parameters affect the analysis
 - identified key output files for downstream genome quality assessment
 
-The reconstructed consensus genomes can subsequently be used for **quality assessment, lineage assignment, comparative genomics, and phylogenetic analysis**.
+---
+
+
