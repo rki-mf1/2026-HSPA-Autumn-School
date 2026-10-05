@@ -22,11 +22,6 @@ permalink: /linux_navigation/
 
 ---
 
-## Working assumptions
-* This lesson assumes you will be working in your **home** directory (`~`). All examples below use paths relative to that location.
-
----
-
 ## Before you start
 Open the `2026-HSPA-Autumn-School` directory in VSCodium. Open a terminal. 
 
