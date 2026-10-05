@@ -55,10 +55,10 @@ Open VSCodium and open a terminal (Terminal -> New Terminal in the top bar). Run
 
 **Workshop directory**
 
+Clone the workshop directory:
 ```bash
-ls -d ~/2026-HSPA-Autumn-School
+git clone https://github.com/rki-mf1/2026-HSPA-Autumn-School.git
 ```
-The path should be printed. An error like `No such file or directory` means the directory is missing.
 
 **Docker**
 
@@ -122,9 +122,9 @@ Please follow these steps to set up your working environment.
 
 ### Workshop directory
 
-Open a terminal and create the workshop directory:
+Clone the workshop directory:
 ```bash
-mkdir ~/2026-HSPA-Autumn-School
+git clone https://github.com/rki-mf1/2026-HSPA-Autumn-School.git
 ```
 
 ### Editor
