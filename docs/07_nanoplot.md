@@ -34,37 +34,39 @@ The input data are located in:
 ---
 
 ## 1. Setup the working environment
+
 Navigate to your project folder:
+
 ```bash
 cd ~/2026-HSPA-Autumn-School
 ```
 
 Create a Conda environment and install `NanoPlot`:
+
 ```bash
-conda create -p envs/nanoplot nanoplot -y
+conda create -n nanoplot nanoplot -y
 ```
 
 Activate the environment:
+
 ```bash
-conda activate envs/nanoplot
+conda activate nanoplot
 ```
 
 Check that `NanoPlot` is available:
+
 ```bash
 NanoPlot --version
 ```
 
 Copy both FASTQ files (barcode 07 & 08):
+
 ```bash
 cp ~/Documents/data/testrun_mpox_amplicon_minion_yale-mpox-2000/fastq_pass/*.fastq.gz data/raw
 ```
 
-Create a Conda environment and install `NanoPlot`:
-```bash
-conda create -p envs/nanoplot nanoplot -y
-```
-
 Create your output directory:
+
 ```bash
 mkdir -p analysis/01_nanoplot/barcode08
 ```
@@ -72,12 +74,15 @@ mkdir -p analysis/01_nanoplot/barcode08
 ---
 
 ## 2. Inspect the data
+
 View the whole file content without wrapped lines:
+
 ```bash
 less -S data/raw/barcode08.excluding_human.fastq.gz
 ```
 
 ... with lines wrapped:
+
 ```bash
 less data/raw/barcode08.excluding_human.fastq.gz
 ```
@@ -85,12 +90,15 @@ less data/raw/barcode08.excluding_human.fastq.gz
 ---
 
 ## 3. Run `NanoPlot`
+
 Navigate to your project folder:
+
 ```bash
 cd ~/2026-HSPA-Autumn-School
 ```
 
 Run `NanoPlot` directly on the FASTQ file from **barcode08**:
+
 ```bash
 NanoPlot \
     --fastq data/raw/barcode08.excluding_human.fastq.gz \
@@ -102,9 +110,10 @@ NanoPlot \
 ```
 
 {: .note }
-The command is split into individual lines per option and argument for readbility reasons. Alternatively, you can run a one-liner.
+The command is split into individual lines per option and argument for readability reasons. Alternatively, you can run a one-liner.
 
 Run `NanoPlot` directly on the FASTQ file from **barcode08**:
+
 ```bash
 NanoPlot --fastq data/raw/barcode08.excluding_human.fastq.gz --title "Barcode 08 (raw)" --prefix barcode08_raw_ --N50 --threads 4 --outdir analysis/01_nanoplot/barcode08
 ```
@@ -123,7 +132,9 @@ Important options:
 ---
 
 ## 4. Inspect the output files
+
 List the generated files:
+
 ```bash
 ls -lh analysis/01_nanoplot/barcode08/
 ```
@@ -163,11 +174,13 @@ The Yale mpox primer scheme produces amplicons of approximately **2 kb**. Theref
 ---
 
 ## 5. Run `NanoPlot` on your own sequencing data 
+
 Adapt the commands above and run `NanoPlot` on the FASTQ files you generated during the previous week of the HSPA Autumn School.
 
 ---
 
 ## 6. Continue with `artic-mpxv-nf`
+
 For this workflow, we will **not create a filtered FASTQ file**.
 
 The raw reads will be used directly as input for `artic-mpxv-nf`.
