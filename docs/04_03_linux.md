@@ -11,14 +11,17 @@ permalink: /linux_files/
 {: .objectives }
 > By the end of this lesson, you should be able to:
 >
-> - search text with `grep`
+> - view plain-text and compressed files from the command line
+> - compress and decompress files using `gzip` and `gunzip`
+> - search text in plain and compressed files with `grep` and `zgrep`
 > - combine commands using pipes (`|`)
-> - extract columns from tabular files
-> - write and run Bash scripts
+> - extract, sort, and count values in tabular files
+> - create and edit files with `nano` text editor
+> - write and run Bash scripts using arguments, loops, and conditional statements
 
 --- 
 
-## Before you start
+## 1. Before you start
 
 Open a terminal and move into the workshop repository:
 
@@ -38,7 +41,7 @@ mkdir -p scratch
 
 Genomics files are often very large, frequently reaching several gigabytes. To reduce storage requirements, they are commonly compressed with `gzip`. Although these files contain binary data and cannot be read directly with standard text tools, you can still inspect them from the command line without decompressing them first.
 
-First, let’s try seeing `.gz` file using `head` command.
+First, let’s try viewing a `.gz` file with the `head` command.
 
 ```bash
 head data/tutorial_data/ERR16718636.fna.gz
@@ -50,7 +53,7 @@ head data/tutorial_data/ERR16718636.fna.gz
 zcat data/tutorial_data/ERR16718636.fna.gz | head
 ```
 
-Let's copy it in scratch directory, and then uncompress it:
+Let's copy it into the scratch directory, and then uncompress it:
 
 ```bash
 cp data/tutorial_data/ERR16718636.fna.gz scratch/ 
@@ -81,7 +84,7 @@ ls -lh
 
 ## 3. Inspect compressed files without unpacking them
 
-Try and compare these commands:
+Try the following commands and compare their output:
 
 ```bash
 cat ERR16718636.fna.gz
@@ -190,7 +193,7 @@ Get the `Contig id` and `Element symbol` columns from `amrfinderplus.tsv`:
 cut -f 3,7 amrfinderplus.tsv
 ```
 
-Get only `Element symbol` containing `OXA`:
+Get the `Element symbol` values for rows containing `OXA`:
 
 ```bash
 grep "OXA" amrfinderplus.tsv | cut -f 7
@@ -214,7 +217,7 @@ Count unique values:
 grep "OXA" amrfinderplus.tsv | cut -f 7 | sort | uniq -c
 ```
 
-Save unique OXA to a new file:
+Save counts of unique OXA element symbols to a new file:
 
 ```bash
 grep "OXA" amrfinderplus.tsv | cut -f 7 | sort | uniq -c > unique_OXA.txt
@@ -383,18 +386,21 @@ chmod +x if_else.sh
 
 ## 📌 Summary
 
-| Command | Purpose |
-| --- | --- |
-| `gzip` | Compress a file |
-| `gunzip` | Uncompress a `.gz` file |
-| `zcat` | Print contents of a `.gz` file |
-| `zless` | View a `.gz` file page by page |
-| `grep` | Search text |
-| `grep -c` | Count matching lines |
-| `cut` | Extract selected columns |
+| Command or construct | Purpose |
+|---|---|
+| `head`, `tail`, `cat` | Display parts of a plain-text file or its contents |
+| `gzip`, `gunzip -k` | Compress a file or decompress it while keeping the compressed copy |
+| `zcat`, `zless`, `zgrep` | Display, page through, or search a compressed file |
+| `grep` | Search text in a file |
+| `grep -i` | Search without distinguishing uppercase and lowercase |
+| `grep -c` | Count lines matching a pattern |
+| `\|` | Send one command’s output to another command |
+| `cut -f` | Extract selected tab-separated fields |
 | `sort` | Sort lines |
-| `uniq` | Remove consecutive duplicates |
-| `wc` | Count lines, words, or characters |
-| `chmod +x` | Make a file executable |
+| `uniq`, `uniq -c` | Remove consecutive duplicate lines or count them |
+| `wc -l`, `wc -w`, `wc -m` | Count lines, words, or characters |
+| `nano` | Create or edit a text file in the terminal |
+| `mkdir -p`, `cp`, `rm`, `touch` | Create directories, copy or remove files, and create empty files |
+| `chmod +x` | Make a script executable |
 | `bash script.sh` | Run a script with Bash |
 | `./script.sh` | Run an executable script directly |
