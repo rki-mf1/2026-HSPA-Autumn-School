@@ -34,20 +34,17 @@ The input data are located in:
 ---
 
 ## 1. Setup the working environment
-
 Navigate to your project folder:
 
 ```bash
 cd ~/2026-HSPA-Autumn-School
 ```
 
-Create a Conda environment and install `NanoPlot`:
-
 ```bash
-conda create -n nanoplot nanoplot -y
+mkdir -p data/raw data/metadata
 ```
 
-Activate the environment:
+Activate the `NanoPlot` environment:
 
 ```bash
 conda activate nanoplot
@@ -66,7 +63,6 @@ cp ~/Documents/data/testrun_mpox_amplicon_minion_yale-mpox-2000/fastq_pass/*.fas
 ```
 
 Create your output directory:
-
 ```bash
 mkdir -p analysis/01_nanoplot/barcode08
 ```
