@@ -34,37 +34,31 @@ The input data are located in:
 ---
 
 ## 1. Setup the working environment
-Navigate to your project folder:
+We are now working in the project folder, not in `scratch/` anymore.
 
+Navigate to your project folder:
 ```bash
 cd ~/2026-HSPA-Autumn-School
 ```
 
+Create directories:
 ```bash
 mkdir -p data/raw data/metadata
 ```
 
 Activate the `NanoPlot` environment:
-
 ```bash
 conda activate nanoplot
 ```
 
-Check that `NanoPlot` is available:
-
-```bash
-NanoPlot --version
-```
-
-Copy both FASTQ files (barcode 07 & 08):
-
+Copy both toy FASTQ files (barcode 07 & 08):
 ```bash
 cp ~/Documents/data/testrun_mpox_amplicon_minion_yale-mpox-2000/fastq_pass/*.fastq.gz data/raw
 ```
 
 Create your output directory:
 ```bash
-mkdir -p analysis/01_nanoplot/barcode08
+mkdir -p analyses/01_nanoplot/barcode08
 ```
 
 ---
@@ -72,37 +66,31 @@ mkdir -p analysis/01_nanoplot/barcode08
 ## 2. Inspect the data
 
 View the whole file content without wrapped lines:
-
 ```bash
 less -S data/raw/barcode08.excluding_human.fastq.gz
 ```
 
 ... with lines wrapped:
-
 ```bash
 less data/raw/barcode08.excluding_human.fastq.gz
 ```
 
 ---
 
-## 3. Run `NanoPlot`
-
-Navigate to your project folder:
-
+## 3. Run `NanoPlot` on toy data
+Make sure you are in your project folder:
 ```bash
 cd ~/2026-HSPA-Autumn-School
 ```
 
-Run `NanoPlot` directly on the FASTQ file from **barcode08**:
-
+Run `NanoPlot` on the FASTQ file from **barcode08**:
 ```bash
 NanoPlot \
     --fastq data/raw/barcode08.excluding_human.fastq.gz \
     --title "Barcode 08 (raw)" \
     --prefix barcode08_raw_ \
-    --N50 \
-    --threads 4 \
-    --outdir analysis/01_nanoplot/barcode08
+    --threads 8 \
+    --outdir analyses/01_nanoplot/barcode08
 ```
 
 {: .note }
@@ -111,7 +99,7 @@ The command is split into individual lines per option and argument for readabili
 Run `NanoPlot` directly on the FASTQ file from **barcode08**:
 
 ```bash
-NanoPlot --fastq data/raw/barcode08.excluding_human.fastq.gz --title "Barcode 08 (raw)" --prefix barcode08_raw_ --N50 --threads 4 --outdir analysis/01_nanoplot/barcode08
+NanoPlot --fastq data/raw/barcode08.excluding_human.fastq.gz --title "Barcode 08 (raw)" --prefix barcode08_raw_ --N50 --threads 4 --outdir analyses/01_nanoplot/barcode08
 ```
 
 Important options:
@@ -128,21 +116,21 @@ Important options:
 ---
 
 ## 4. Inspect the output files
-
 List the generated files:
 
 ```bash
-ls -lh analysis/01_nanoplot/barcode08/
+ls -lh analyses/01_nanoplot/barcode08/
 ```
 
 Important outputs include:
 
 ```text
-NanoPlot-report.html
-NanoStats.txt
+barcode08_raw_NanoPlot-report.html
+barcode08_raw_NanoStats.txt
 ```
 
-Open `NanoPlot-report.html` in a web browser and inspect the plots and statistics.
+### 5. Interpret the report
+Open the `NanoPlot` report in VScodium.
 
 Pay particular attention to:
 
@@ -169,9 +157,35 @@ The Yale mpox primer scheme produces amplicons of approximately **2 kb**. Theref
 
 ---
 
-## 5. Run `NanoPlot` on your own sequencing data 
+## 5. Copy FASTQ files
 
-Adapt the commands above and run `NanoPlot` on the FASTQ files you generated during the previous week of the HSPA Autumn School.
+Copy the FASTQ files from the USB drive to your laptop>
+```bash
+# Group A - barcode19
+cp -r /media/$USER/F0EE-30D9/HSPA\ Autumn\ School\ 2026/ONT\ Data/HSPA_MPXV_GROUP_A/clade1_2/20261007_1823_MD-103422_FBH77133_714d4c23/fastq_pass/barcode19 data/raw/
+Group A - barcode 20
+cp -r /media/pluto/F0EE-30D9/HSPA\ Autumn\ School\ 2026/ONT\ Data/HSPA_MPXV_GROUP_A/clade1_2/20261007_1823_MD-103422_FBH77133_714d4c23/fastq_pass/barcode20 data/raw/
+
+Group B - barcode 2
+cp -r /media/$USER/F0EE-30D9/HSPA\ Autumn\ School\ 2026/ONT\ Data/HSPA_MPXV_GROUP_B/clade_1_2/20261008_1744_MD-103422_FBH77133_e9b0c176/fastq_pass/barcode22 data/raw/
+Group B - barcode 23
+cp -r /media/$USER/F0EE-30D9/HSPA\ Autumn\ School\ 2026/ONT\ Data/HSPA_MPXV_GROUP_B/clade_1_2/20261008_1744_MD-103422_FBH77133_e9b0c176/fastq_pass/barcode23 data/raw/
+```
+
+Verify:
+```bash
+ls -lh data/raw
+```
+
+Concatenate the FASTQ files for each barcode to a single FASTQ file:
+```bash
+cat data/raw/barcode19/*.fastq.gz > data/raw/barcode19_merged.fastq.gz
+cat data/raw/barcode20/*.fastq.gz > data/raw/barcode20_merged.fastq.gz
+cat data/raw/barcode22/*.fastq.gz > data/raw/barcode22_merged.fastq.gz
+cat data/raw/barcode23/*.fastq.gz > data/raw/barcode23_merged.fastq.gz
+```
+
+Now, run `NanoPlot` on the barcode you generated during the previous week of the HSPA Autumn School. Adapt the command accordingly.
 
 ---
 
