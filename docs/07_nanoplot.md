@@ -15,7 +15,7 @@ permalink: /nanoplot/
 > - run `NanoPlot` on Oxford Nanopore FASTQ files
 > - inspect read length and read quality distributions
 > - interpret basic ONT read quality statistics
-> - decide whether the reads are suitable for downstream analysis
+> - decide whether the reads are suitable for downstream analyses
 
 ---
 

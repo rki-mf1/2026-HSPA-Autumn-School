@@ -15,7 +15,7 @@ Bioinformatics analyses often depend on many programs, libraries, databases, and
 
 [![conda_logo](https://upload.wikimedia.org/wikipedia/commons/e/ea/Conda_logo.svg){: width="160" }](https://docs.conda.io/projects/conda/en/latest/index.html)
 
-[Conda](https://docs.conda.io/projects/conda/en/latest/index.html) installs software together with its dependencies and keeps tools in separate **environments**. Use a dedicated environment for each project or workflow, avoid installing analysis tools in the `base` environment, and save the environment definition in a YAML file so it can be recreated later.
+[Conda](https://docs.conda.io/projects/conda/en/latest/index.html) installs software together with its dependencies and keeps tools in separate **environments**. Use a dedicated environment for each project or workflow, avoid installing analyses tools in the `base` environment, and save the environment definition in a YAML file so it can be recreated later.
 
 ---
 

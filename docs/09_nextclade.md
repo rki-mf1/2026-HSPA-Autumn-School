@@ -52,11 +52,11 @@ cd ~/2026-HSPA-Autumn-School
 
 nextclade run \
   --dataset-name "nextstrain/mpox/all-clades" \
-  --output-all "analysis/03_nextclade" \
-  analysis/02_artic-mpxv-nf/barcode08/barcode08.consensus.fasta
+  --output-all "analyses/03_nextclade" \
+  analyses/02_artic-mpxv-nf/barcode08/barcode08.consensus.fasta
 ```
 
-Nextclade downloads the dataset automatically and writes the results to `analysis/03_nextclade/`.
+Nextclade downloads the dataset automatically and writes the results to `analyses/03_nextclade/`.
 
 ### Main output files
 
@@ -65,7 +65,7 @@ Nextclade downloads the dataset automatically and writes the results to `analysi
 | `nextclade.tsv`           | **Main results table.** Contains clade and lineage assignments, QC results, mutations, missing regions, and other sequence statistics. |
 | `nextclade.aligned.fasta` | Input sequence aligned to the reference genome.                                                                                        |
 | `nextclade.auspice.json`  | Phylogenetic tree containing the analyzed sequence, suitable for visualization with Auspice.                                           |
-| `nextclade.json`          | Detailed Nextclade results in JSON format, mainly useful for automated downstream analysis.                                            |
+| `nextclade.json`          | Detailed Nextclade results in JSON format, mainly useful for automated downstream analyses.                                            |
 
 {: .note }
 > For this tutorial, `nextclade.tsv` is the most important output file. Open it in a spreadsheet program or inspect it directly from the command line.

@@ -116,8 +116,8 @@ nextflow run artic-network/artic-mpxv-nf \
     -process.executor local \
     --fastq "$PROJECT_DIR/data/raw/barcode08.excluding_human.fastq.gz" \
     --scheme_version "yale-mpox/2000/v1.0.0-cladeii" \
-    --out_dir "$PROJECT_DIR/analysis/02_artic-mpxv-nf/barcode08" \
-    --store_dir "$PROJECT_DIR/analysis/02_artic-mpxv-nf/store_dir_barcode08" \
+    --out_dir "$PROJECT_DIR/analyses/02_artic-mpxv-nf/barcode08" \
+    --store_dir "$PROJECT_DIR/analyses/02_artic-mpxv-nf/store_dir_barcode08" \
     --override_model r1041_e82_400bps_hac_v520 \
     --validate_params false \
     --clade cladeii
@@ -137,7 +137,7 @@ The backslash (`\`) at the end of each line tells Bash that the command continue
 | `--store_dir` | Directory used to store workflow resources such as downloaded primer schemes. |
 | `--override_model` | Specifies the ONT/Clair3 model corresponding to the model used for basecalling. |
 | `--validate_params false` | Disables Nextflow parameter-schema validation for this run. |
-| `--clade` | Specifies the MPXV clade used by downstream MPXV-specific analysis. |
+| `--clade` | Specifies the MPXV clade used by downstream MPXV-specific analyses. |
 
 ---
 
@@ -146,7 +146,7 @@ The backslash (`\`) at the end of each line tells Bash that the command continue
 After the workflow completes, inspect the output directory:
 
 ```bash
-ls "$PROJECT_DIR/analysis/02_artic-mpxv-nf/testrun_mpox_amplicon_minion_yale-mpox-2000_cladeii"
+ls "$PROJECT_DIR/analyses/02_artic-mpxv-nf/testrun_mpox_amplicon_minion_yale-mpox-2000_cladeii"
 ```
 
 Important output files can include:

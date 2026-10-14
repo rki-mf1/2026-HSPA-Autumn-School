@@ -14,6 +14,9 @@
 /data/testrun_mpox_amplicon_minion_yale-mpox-2000.tar.gz
 /data/testrun_mpox_amplicon_minion_yale-mpox-2000
 /scratch
+/scripts
+/work
+/.nextflow
 
 # Keep required root files
 !/LICENSE

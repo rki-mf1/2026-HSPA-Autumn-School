@@ -9,7 +9,7 @@ permalink: /data_managment/
 
 # Data Management
 
-Good project organisation makes bioinformatics analyses easier to understand, reproduce, share, and maintain. A clear structure is especially important when a project contains many samples, large sequencing files, several tools, and multiple analysis versions.
+Good project organisation makes bioinformatics analyses easier to understand, reproduce, share, and maintain. A clear structure is especially important when a project contains many samples, large sequencing files, several tools, and multiple analyses versions.
 
 ---
 
@@ -38,7 +38,7 @@ project_name/
 │   └── metadata/
 ├── envs/
 ├── scripts/
-├── analysis/
+├── analyses/
 │   ├── 01_qc/
 │   ├── 02_assembly/
 │   └── 03_typing/
@@ -53,7 +53,7 @@ project_name/
 | `data/metadata/` | Sample information and data dictionaries       |
 | `envs/`          | Conda environment files and software records   |
 | `scripts/`       | Reusable commands, scripts, and workflow files |
-| `analysis/`      | Analysis outputs organized by analysis step    |
+| `analyses/`      | Analyses outputs organized by analysis step    |
 | `logs/`          | Program output, error messages, and run logs   |
 | `reports/`       | Figures, tables, summaries, and final reports  |
 
@@ -139,7 +139,7 @@ Sequencing projects can quickly consume large amounts of disk space. Check stora
 
 ```bash
 du -sh .
-du -sh data/* analysis/*
+du -sh data/* analyses/*
 ```
 
 To reduce unnecessary storage use:
