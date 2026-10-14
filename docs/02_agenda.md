@@ -532,9 +532,9 @@ permalink: /agenda/
 <td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;font-style:italic;">V. Bajić; F. Kistner</td>
 </tr>
 <tr>
-<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:normal;white-space:nowrap">09:15 - 10:15</td>
-<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;">Theory</td>
-<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;font-style:italic;">V. Bajić; F. Kistner</td>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:normal;background-color:#FFF2CC;white-space:nowrap">09:15 - 10:15</td>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#FFF2CC;"><strong>⭐</strong><strong> </strong>Lecture |  Bioinformatics tools for rapid and sensitive detection of pathogens </td>
+<td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:anywhere;background-color:#FFF2CC;font-style:italic;">S. Tausch</td>
 </tr>
 <tr>
 <td style="border:1px solid #202020;padding:0.42rem 0.52rem;vertical-align:middle;overflow-wrap:normal;background-color:#F9F1F9;white-space:nowrap">10:15 - 10:30</td>
