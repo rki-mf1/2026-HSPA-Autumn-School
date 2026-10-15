@@ -146,7 +146,7 @@ The backslash (`\`) at the end of each line tells Bash that the command continue
 After the workflow completes, inspect the output directory:
 
 ```bash
-ls "$PROJECT_DIR/analyses/02_artic-mpxv-nf/testrun_mpox_amplicon_minion_yale-mpox-2000_cladeii"
+ls analyses/02_artic-mpxv-nf/barcode08
 ```
 
 Important output files can include:
